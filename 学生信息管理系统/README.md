@@ -1,32 +1,32 @@
-#学生管理系统
+## 学生管理系统
 
 
 ![欢迎入口](https://github.com/cocominew/mytest/blob/master/img-storage/%E6%AC%A2%E8%BF%8E%E5%85%A5%E5%8F%A3.jpg)
 
 
-#欢迎入口，选择教师页面和学生页面。教师负责对学生信息、成绩的管理，学生可以查看成绩、学校通知、留言
-<br><br><br>
+## 欢迎入口，选择教师页面和学生页面。教师负责对学生信息、成绩的管理，学生可以查看成绩、学校通知、留言
+
 ![学生页面](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%AD%A6%E7%94%9F%E9%A1%B5%E9%9D%A2.JPEG)
 
 
-#学校首页面截图
-<br><br><br>
+## 学校首页面截图
+
 ![学生入口](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%AD%A6%E7%94%9F%E5%85%A5%E5%8F%A3.jpg)
 
 
-#学生登录界面截图
-<br><br><br>
+## 学生登录界面截图
+
 ![教师页面](https://github.com/cocominew/mytest/blob/master/img-storage/%E6%95%99%E5%B8%88%E9%A1%B5%E9%9D%A2.jpg)
 
 
-#教师管理页面截图
-<br><br><br>
+## 教师管理页面截图
+
 ![留言板](https://github.com/cocominew/mytest/blob/master/img-storage/%E7%95%99%E8%A8%80%E6%9D%BF.jpg)
 
 
-#留言板截图
-<br><br><br>
+## 留言板截图
+
 ![成绩查询](https://github.com/cocominew/mytest/blob/master/img-storage/%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2.jpg)
 
 
-#成绩查询页面截图
+## 成绩查询页面截图
