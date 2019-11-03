@@ -1,0 +1,346 @@
+[ 2019-10-10T00:27:31+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003934s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1078s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 新西兰旅游攻略',`h_author`='啾啾',`h_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;input type=&quot;text&quot; value=&quot;新西兰游记&quot; style=&quot;text-align: center;border: 1px solid;margin: 0px 150px;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px &quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;旅行的意义就在于去看看世界各地不同的风土人情和历史文化，所以我每年都要给自己规划一个旅游的时间。这次我选择的地方是新西兰。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637410112265.jpeg&quot; width=&quot;600px&quot; title=&quot;1570637410112265.jpeg&quot; alt=&quot;xxl1.jpeg&quot;/&gt;&lt;/p&gt;&lt;p&gt;出发点第一站是基督城，刚到这座城市就下起了绵绵细雨，天空也是灰蒙蒙的，感觉有点冷。我住的酒店是面朝蒂卡普湖，只要步行十几分钟就可以到好牧羊人教堂。第一次看见蒂卡普湖感觉这湖里的水好清澈呀，湖面却又蓝的深邃。蓝天白云还有青草的香气，让人感觉很舒服。中午到了好牧羊人教堂，这里的人特别多，我只是随便看看就赶去吃饭了。这里的餐厅只营业到下午两点，晚上五点才会继续营业。我选了一家日式餐厅，价钱不算特别便宜，味道也还不错，人气看起来很旺，还需要排队等吃饭。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637435143855.jpeg&quot; width=&quot;600&quot; title=&quot;1570637435143855.jpeg&quot; alt=&quot;1570637435143855.jpeg&quot; height=&quot;369&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px; height: 369px;&quot;/&gt;&lt;/p&gt;&lt;p&gt;到了晚上才是重点，蒂卡普是世界首个星空保护区，晚上八点的时候就已经是满天繁星了，就是肉眼也可以看见银河。而好牧羊人教堂已经来了很多人了，每个人都拿着手机或者是专业摄像机拍起了这美丽的场景。我一直等到凌晨两点，看到了无与伦比的美景，天空中繁星闪烁，银河就在天上飘着，真的很美。让我想到了小时候睡在外婆天台上和姐姐边看星星边聊天的场景。我想今天的夜晚我也会记住一辈子的。
+
+
+很多人说开往库克山的公路是新西兰最美的公路之一，我非常赞同。公路的两边是无边无际的鲁冰花，地面干净的仿佛没有一点灰尘。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637596118057.jpeg&quot; width=&quot;600&quot; title=&quot;1570637596118057.jpeg&quot; alt=&quot;xxl3.jpeg&quot; height=&quot;336&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px; height: 336px;&quot;/&gt;&lt;/p&gt;&lt;p&gt;库克山位于南阿尔卑斯山脉上，是新西兰最高的山峰，常年积雪，也被称为新西兰的屋脊。这里有很多条徒步旅行的路线，而且是不收取任何门票的。我选择了一条经典的胡克谷步道，听说这条路拥有最美丽的风景，我就从这里徒步开始。由于独特地理位置，整个库克山超过三分之一的地方都是常年积雪而且结冰，所以形成了冰川湖，湖水是灰白色略有一点浑浊的。但是因为天气原因我没有走完全程，心里还是有点小遗憾的。想着如果还有机会来这里，一定要走完全程好好欣赏这里的风景。&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637644115811.jpeg&quot; width=&quot;600px&quot; title=&quot;1570637644115811.jpeg&quot; alt=&quot;xxl2.jpeg&quot;/&gt;&lt;/p&gt;&lt;p&gt;选择入住了一家民宿，这所房子可以称得上是我梦想中的家了，它自带院子，可以随意种植一些花花草草。主卧也很大，墙面是米黄色的漆，显得格外温馨。
+
+下一站来到了罗伊峰步道，它是位于小镇瓦纳卡西侧的公路边，整个步道呈之字形上坡，需要很强的耐心和体力。每年的十月到十一月都会关闭道路，因为母羊产羔，所以来这里的人一定要看好时间不要白来哦。我爬了一小段路就感觉很累了，路过一个外国人还跟我加油打气，我就坚持接着爬了。越往上走，视野也就越开阔，之前被山围住的瓦纳卡湖也渐渐露出全貌了，这美景让我忘记了爬山的艰辛。史诗般的山峦连绵不断，犹如一幅山水画在眼前展开。很多人还会选择在山腰露营等着看第二天的日出，而我因为时间关系早早的就下山了。这一天可真的是累坏了，回到住宿的地方倒头就睡了。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637833130390.jpeg&quot; width=&quot;600px&quot; title=&quot;1570637833130390.jpeg&quot; alt=&quot;wnk.jpeg&quot;/&gt;&lt;/p&gt;&lt;p&gt;一早起来就去之前预定好自驾飞机体验的地方，今天天气不错，飞行员说很适合飞行。这是我在淘宝里订的30分钟的体验，上飞机之前工作人员会让我们签一个类似于生死状一样的文件，然后再带我去小黑屋里面讲解一些有关飞机驾驶的视频。起飞以后轰鸣声很大，都有点耳鸣了，过了一会适应了才恢复过来了。往窗外看去，地下一格一格的绿地，甚是好看。再往前飞，就看到蜿蜒曲折的哈威亚湖像一条巨大的长蛇蛰伏在大地上。这也算一个难忘的回忆了。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570638408227336.jpeg&quot; width=&quot;600&quot; title=&quot;1570638408227336.jpeg&quot; alt=&quot;1570638408227336.jpeg&quot; height=&quot;400&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px; height: 400px;&quot;/&gt;&lt;/p&gt;&lt;p&gt;在皇后镇的市中心随意逛了起来，看到很多街头艺人。当中有弹钢琴的、画画的，还有扮音乐盒里的芭蕾舞者，非常生动。默默欣赏了很久才走开，他们实在是太有才了。整个皇后镇不算大，在天空缆车的二楼就可以看到小镇的全景了，映衬着落日余晖，整个小镇越发显得有意境了。
+
+这次的旅行是我最独特的回忆&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637727165543.jpeg&quot; width=&quot;600px&quot; title=&quot;1570637727165543.jpeg&quot; alt=&quot;hhz.jpeg&quot;/&gt;&lt;/p&gt;',`h_fabu`='旅游出行' WHERE `h_id` = 9 [ RunTime:0.1617s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000469s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001895s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012515s ]
+
+[ 2019-10-10T00:27:33+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012239s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0662s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000705s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.841268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.842083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009709s ]
+
+[ 2019-10-10T00:27:54+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000485s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007154s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0925s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 9 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000584s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001886s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.400172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.400943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009695s ]
+
+[ 2019-10-10T00:29:18+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009689s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1318s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 新西兰旅游攻略',`h_author`='啾啾',`h_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;input type=&quot;text&quot; value=&quot;新西兰游记&quot; style=&quot;text-align: center;border: 1px solid;margin: 0px 150px;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px &quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;旅行的意义就在于去看看世界各地不同的风土人情和历史文化，所以我每年都要给自己规划一个旅游的时间。这次我选择的地方是新西兰。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637410112265.jpeg&quot; width=&quot;600px&quot; title=&quot;1570637410112265.jpeg&quot; alt=&quot;xxl1.jpeg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;出发点第一站是基督城，刚到这座城市就下起了绵绵细雨，天空也是灰蒙蒙的，感觉有点冷。我住的酒店是面朝蒂卡普湖，只要步行十几分钟就可以到好牧羊人教堂。第一次看见蒂卡普湖感觉这湖里的水好清澈呀，湖面却又蓝的深邃。蓝天白云还有青草的香气，让人感觉很舒服。中午到了好牧羊人教堂，这里的人特别多，我只是随便看看就赶去吃饭了。这里的餐厅只营业到下午两点，晚上五点才会继续营业。我选了一家日式餐厅，价钱不算特别便宜，味道也还不错，人气看起来很旺，还需要排队等吃饭。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637435143855.jpeg&quot; width=&quot;600&quot; title=&quot;1570637435143855.jpeg&quot; alt=&quot;1570637435143855.jpeg&quot; height=&quot;369&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px; height: 369px;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;到了晚上才是重点，蒂卡普是世界首个星空保护区，晚上八点的时候就已经是满天繁星了，就是肉眼也可以看见银河。而好牧羊人教堂已经来了很多人了，每个人都拿着手机或者是专业摄像机拍起了这美丽的场景。我一直等到凌晨两点，看到了无与伦比的美景，天空中繁星闪烁，银河就在天上飘着，真的很美。让我想到了小时候睡在外婆天台上和姐姐边看星星边聊天的场景。我想今天的夜晚我也会记住一辈子的。
+
+
+很多人说开往库克山的公路是新西兰最美的公路之一，我非常赞同。公路的两边是无边无际的鲁冰花，地面干净的仿佛没有一点灰尘。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637596118057.jpeg&quot; width=&quot;600&quot; title=&quot;1570637596118057.jpeg&quot; alt=&quot;xxl3.jpeg&quot; height=&quot;336&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px; height: 336px;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;库克山位于南阿尔卑斯山脉上，是新西兰最高的山峰，常年积雪，也被称为新西兰的屋脊。这里有很多条徒步旅行的路线，而且是不收取任何门票的。我选择了一条经典的胡克谷步道，听说这条路拥有最美丽的风景，我就从这里徒步开始。由于独特地理位置，整个库克山超过三分之一的地方都是常年积雪而且结冰，所以形成了冰川湖，湖水是灰白色略有一点浑浊的。但是因为天气原因我没有走完全程，心里还是有点小遗憾的。想着如果还有机会来这里，一定要走完全程好好欣赏这里的风景。&lt;/span&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637644115811.jpeg&quot; width=&quot;600px&quot; title=&quot;1570637644115811.jpeg&quot; alt=&quot;xxl2.jpeg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;选择入住了一家民宿，这所房子可以称得上是我梦想中的家了，它自带院子，可以随意种植一些花花草草。主卧也很大，墙面是米黄色的漆，显得格外温馨。
+
+下一站来到了罗伊峰步道，它是位于小镇瓦纳卡西侧的公路边，整个步道呈之字形上坡，需要很强的耐心和体力。每年的十月到十一月都会关闭道路，因为母羊产羔，所以来这里的人一定要看好时间不要白来哦。我爬了一小段路就感觉很累了，路过一个外国人还跟我加油打气，我就坚持接着爬了。越往上走，视野也就越开阔，之前被山围住的瓦纳卡湖也渐渐露出全貌了，这美景让我忘记了爬山的艰辛。史诗般的山峦连绵不断，犹如一幅山水画在眼前展开。很多人还会选择在山腰露营等着看第二天的日出，而我因为时间关系早早的就下山了。这一天可真的是累坏了，回到住宿的地方倒头就睡了。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637833130390.jpeg&quot; width=&quot;600px&quot; title=&quot;1570637833130390.jpeg&quot; alt=&quot;wnk.jpeg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;一早起来就去之前预定好自驾飞机体验的地方，今天天气不错，飞行员说很适合飞行。这是我在淘宝里订的30分钟的体验，上飞机之前工作人员会让我们签一个类似于生死状一样的文件，然后再带我去小黑屋里面讲解一些有关飞机驾驶的视频。起飞以后轰鸣声很大，都有点耳鸣了，过了一会适应了才恢复过来了。往窗外看去，地下一格一格的绿地，甚是好看。再往前飞，就看到蜿蜒曲折的哈威亚湖像一条巨大的长蛇蛰伏在大地上。这也算一个难忘的回忆了。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570638408227336.jpeg&quot; width=&quot;600&quot; title=&quot;1570638408227336.jpeg&quot; alt=&quot;1570638408227336.jpeg&quot; height=&quot;400&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px; height: 400px;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;在皇后镇的市中心随意逛了起来，看到很多街头艺人。当中有弹钢琴的、画画的，还有扮音乐盒里的芭蕾舞者，非常生动。默默欣赏了很久才走开，他们实在是太有才了。整个皇后镇不算大，在天空缆车的二楼就可以看到小镇的全景了，映衬着落日余晖，整个小镇越发显得有意境了。 这次的旅行是我最独特的回忆&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20191010/1570637727165543.jpeg&quot; width=&quot;600px&quot; title=&quot;1570637727165543.jpeg&quot; alt=&quot;hhz.jpeg&quot;/&gt;&lt;/p&gt;',`h_fabu`='旅游出行' WHERE `h_id` = 9 [ RunTime:0.0661s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004590s ]
+
+[ 2019-10-10T00:29:21+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004382s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1030s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000842s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008621s ]
+
+[ 2019-10-10T13:47:02+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+
+[ 2019-10-10T13:47:06+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2019-10-10T13:47:07+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003437s ]
+
+[ 2019-10-10T13:47:17+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.0619s ]
+SQL: SELECT * FROM `xm_admin` WHERE `admin_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-10-10T13:47:18+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.220906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.221092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2019-10-10T13:47:24+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2019-10-10T13:47:24+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2019-10-10T13:47:25+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2019-10-10T13:47:25+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2019-10-10T13:47:35+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2019-10-10T13:47:35+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2019-10-10T13:47:36+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+

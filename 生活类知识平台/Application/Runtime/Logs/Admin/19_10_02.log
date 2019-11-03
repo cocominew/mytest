@@ -1,0 +1,1601 @@
+[ 2019-10-02T19:50:39+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.097184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.116603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.027271s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.028289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.063594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.064305s ]
+
+[ 2019-10-02T19:50:43+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.195162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.195820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.119881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.120407s ]
+
+[ 2019-10-02T19:50:44+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000443s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010130s ]
+
+[ 2019-10-02T19:51:00+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000244s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004704s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.0872s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2019-10-02T19:51:00+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.374047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011320s ]
+
+[ 2019-10-02T19:51:04+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1323s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000617s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.229855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004757s ]
+
+[ 2019-10-02T19:51:18+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000575s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.238531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006010s ]
+
+[ 2019-10-02T19:51:22+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000364s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027440s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.2282s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021716s ]
+
+[ 2019-10-02T19:51:25+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005934s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000529s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001599s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005549s ]
+
+[ 2019-10-02T19:58:34+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004263s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0533s ]
+NOTIC: [8] Undefined index: tmg_name D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 22 行.
+NOTIC: [8] Undefined index: tmg_name D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 40 行.
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_game` (`g_title`,`g_author`,`g_content`,`g_fabu`) VALUES ('■ 王者荣耀新人教学','wendy','&lt;p&gt;dd&lt;/p&gt;','娱乐') [ RunTime:0.0280s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003474s ]
+
+[ 2019-10-02T19:58:36+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004845s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0613s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000768s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003701s ]
+
+[ 2019-10-02T20:04:24+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003901s ]
+
+[ 2019-10-02T20:04:27+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000953s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003646s ]
+
+[ 2019-10-02T20:04:28+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010279s ]
+
+[ 2019-10-02T20:04:46+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017983s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.1080s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2019-10-02T20:04:46+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012209s ]
+
+[ 2019-10-02T20:04:49+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004685s ]
+
+[ 2019-10-02T20:04:54+08:00 ] ::1 /xunmi/index.php/Admin/Game/del/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006717s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0537s ]
+SQL: DELETE FROM `xm_game` WHERE `g_id` = 1 [ RunTime:0.0758s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 138 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008240s ]
+
+[ 2019-10-02T20:04:56+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006320s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000794s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003226s ]
+
+[ 2019-10-02T20:05:08+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004798s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000803s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001830s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006199s ]
+
+[ 2019-10-02T20:05:40+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003347s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0691s ]
+NOTIC: [8] Undefined index: tmg_name D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 22 行.
+NOTIC: [8] Undefined index: tmg_name D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 40 行.
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_game` (`g_title`,`g_author`,`g_content`,`g_fabu`) VALUES ('■ 王者荣耀新人教学','wendy','','娱乐') [ RunTime:0.2586s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005894s ]
+
+[ 2019-10-02T20:05:41+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007016s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0645s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000931s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004143s ]
+
+[ 2019-10-02T20:05:45+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0912s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003265s ]
+
+[ 2019-10-02T20:07:39+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0714s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000755s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004197s ]
+
+[ 2019-10-02T20:08:44+08:00 ] ::1 /xunmi/index.php/Admin/Poem/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004455s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.1215s ]
+SQL: SELECT * FROM `xm_poem`  [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.859052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.859686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008543s ]
+
+[ 2019-10-02T20:08:48+08:00 ] ::1 /xunmi/index.php/Admin/Poem/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004158s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.1059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.373928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005119s ]
+
+[ 2019-10-02T20:09:10+08:00 ] ::1 /xunmi/index.php/Admin/Poem/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006667s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0671s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000703s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003076s ]
+
+[ 2019-10-02T20:09:13+08:00 ] ::1 /xunmi/index.php/Admin/Poem/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003767s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000931s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004931s ]
+
+[ 2019-10-02T20:09:24+08:00 ] ::1 /xunmi/index.php/Admin/Poem/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000321s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003551s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0545s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_poem` (`p_title`,`p_author`,`p_content`,`p_fabu`,`p_pic`,`p_tou`) VALUES ('','','','诗词','./Uploads/2019-10-02/5d9493742fd3b.jpg','./Tous/2019-10-02/5d94937432806.jpg') [ RunTime:0.0594s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\PoemController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005663s ]
+
+[ 2019-10-02T20:09:25+08:00 ] ::1 /xunmi/index.php/Admin/Poem/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005131s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0639s ]
+SQL: SELECT * FROM `xm_poem`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000763s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004867s ]
+
+[ 2019-10-02T20:09:45+08:00 ] ::1 /xunmi/index.php/Admin/Poem/del/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007187s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0596s ]
+SQL: DELETE FROM `xm_poem` WHERE `p_id` = 5 [ RunTime:0.0552s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\PoemController.class.php 第 138 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003808s ]
+
+[ 2019-10-02T20:09:47+08:00 ] ::1 /xunmi/index.php/Admin/Poem/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003577s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `xm_poem`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000601s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006308s ]
+
+[ 2019-10-02T20:09:51+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010558s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1300s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004116s ]
+
+[ 2019-10-02T20:15:42+08:00 ] ::1 /xunmi/index.php/Admin/Game/del/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007305s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0594s ]
+SQL: DELETE FROM `xm_game` WHERE `g_id` = 2 [ RunTime:0.3923s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 138 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003706s ]
+
+[ 2019-10-02T20:15:43+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000611s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004848s ]
+
+[ 2019-10-02T20:15:45+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001494s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0616s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000794s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004230s ]
+
+[ 2019-10-02T20:15:47+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006398s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000745s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003988s ]
+
+[ 2019-10-02T20:16:24+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004327s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0641s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_game` (`g_title`,`g_author`,`g_content`,`g_fabu`,`g_pic`,`g_tou`) VALUES ('■ 王者荣耀新人教学','wendy','','娱乐','./Uploads/2019-10-02/5d949518d1088.jpg','./Tous/2019-10-02/5d949518d48cf.jpg') [ RunTime:0.0383s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004213s ]
+
+[ 2019-10-02T20:16:26+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003617s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0613s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004011s ]
+
+[ 2019-10-02T20:18:22+08:00 ] ::1 /xunmi/index.php/Admin/Game/del/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008573s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0610s ]
+SQL: DELETE FROM `xm_game` WHERE `g_id` = 3 [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003215s ]
+
+[ 2019-10-02T20:18:28+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005847s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000818s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003544s ]
+
+[ 2019-10-02T20:18:30+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011737s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0748s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000631s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004575s ]
+
+[ 2019-10-02T20:18:39+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004412s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003483s ]
+
+[ 2019-10-02T20:19:04+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004123s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0761s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_game` (`g_title`,`g_author`,`g_content`,`g_fabu`,`g_pic`,`g_tou`) VALUES ('■ 王者荣耀新人教学','wendy','','娱乐','./Uploads/2019-10-02/5d9495b882497.jpg','./Tous/2019-10-02/5d9495b888a16.jpg') [ RunTime:0.0964s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006273s ]
+
+[ 2019-10-02T20:19:06+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000298s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008328s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0877s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003830s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006087s ]
+
+[ 2019-10-02T20:19:21+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013992s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000550s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004987s ]
+
+[ 2019-10-02T20:21:41+08:00 ] ::1 /xunmi/index.php/Admin/Game/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007477s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0568s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_game` (`g_title`,`g_author`,`g_content`,`g_fabu`,`g_pic`,`g_tou`) VALUES ('■ 和平精英','呆呆','','娱乐','./Uploads/2019-10-02/5d94965587655.jpg','./Tous/2019-10-02/5d9496558c1e4.jpg') [ RunTime:0.0685s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000680s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003262s ]
+
+[ 2019-10-02T20:21:43+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004003s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0769s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000711s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001916s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004560s ]
+
+[ 2019-10-02T20:21:52+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003539s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0634s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] Undefined variable: pgames D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Admin\2aced5d0e473cbb1133380841fe23993.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.273341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.274349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003513s ]
+
+[ 2019-10-02T20:21:58+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003547s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0863s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_game` SET `g_title`='',`g_author`='呆呆',`g_content`='&lt;p&gt;1&lt;/p&gt;',`g_fabu`='娱乐' WHERE `g_id` = 2 [ RunTime:0.0392s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005995s ]
+
+[ 2019-10-02T20:21:59+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007308s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.2518s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000656s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006396s ]
+
+[ 2019-10-02T20:22:30+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004552s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1057s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 1 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000489s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001534s ]
+NOTIC: [8] Undefined variable: pgames D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Admin\2aced5d0e473cbb1133380841fe23993.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003477s ]
+
+[ 2019-10-02T20:22:52+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000923s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004036s ]
+
+[ 2019-10-02T20:22:54+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003934s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0962s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 2 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008891s ]
+
+[ 2019-10-02T20:22:58+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000449s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1884s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004099s ]
+
+[ 2019-10-02T20:23:00+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014689s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1238s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 1 LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000646s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005361s ]
+
+[ 2019-10-02T20:23:03+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003396s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0937s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000570s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007608s ]
+
+[ 2019-10-02T20:23:05+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005380s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0721s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000738s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003757s ]
+
+[ 2019-10-02T20:23:19+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002924s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0762s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_game` SET `g_title`='■ 和平精英',`g_author`='呆呆',`g_content`='&lt;p&gt;1&lt;/p&gt;',`g_fabu`='娱乐' WHERE `g_id` = 2 [ RunTime:0.0422s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003269s ]
+
+[ 2019-10-02T20:23:21+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0523s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000825s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006802s ]
+
+[ 2019-10-02T20:56:50+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.488789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.489546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004233s ]
+
+[ 2019-10-02T20:56:53+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004824s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0671s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000817s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003796s ]
+
+[ 2019-10-02T20:56:56+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006298s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0992s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 1 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003654s ]
+
+[ 2019-10-02T20:57:31+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000339s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008810s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0715s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_game` SET `g_title`='■ 王者荣耀新人教学',`g_author`='wendy',`g_content`='&lt;section data-role=&quot;outer&quot; label=&quot;Powered by 135editor.com&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;一、英雄所带技能的推荐：&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;关于新手玩家刚开始拥有的英雄技能有&amp;quot;惩戒&amp;quot;、&amp;quot;斩杀&amp;quot;还有&amp;quot;狂暴&amp;quot;，我建议先带&amp;quot;斩杀&amp;quot;还有&amp;quot;狂暴&amp;quot;玩一玩，这样可以很容易取得人头，获得更多的经济。 &amp;quot;惩戒&amp;quot;的话，比较适合打野的英雄，但是在新手时期，我觉得还是注重于对技能的培养吧。打野可以后期在练习。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;随着等级的提高，还会解锁解锁&amp;quot;幽灵疾步&amp;quot;、&amp;quot;治疗术&amp;quot;和&amp;quot;干扰&amp;quot;，这个技能都很适合新手使用。&amp;quot;幽灵疾步&amp;quot;可以增加移动速度， &amp;quot;治疗术&amp;quot;有回复自己与周围队友的最大生命值的能力，&amp;quot;干扰&amp;quot;有着沉默防御塔或者水晶几秒的能力，再之后还会解锁&amp;quot;眩晕&amp;quot;、&amp;quot;净化&amp;quot;、&amp;quot;弱化&amp;quot;这三个技能。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;&lt;img src=&quot;https://image.135editor.com/files/users/689/6897714/201910/FVZVTWsL_t99t.jpg&quot; data-ratio=&quot;1&quot; alt=&quot;jineng.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;二、各类&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;英雄的推荐路线：&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span class=&quot;bjh-p&quot;&gt;上路：广大人群都是觉得坦克类的英雄走上路比较合适，我方的上路相对的是对面的下野区，同时就是红Buff所在的野区，作为一个上单，必然要面对拿了红BUFF的射手，前期更难受，处理不好，分分送一血，而坦克英雄的血比较厚，对阵带有红Buff的敌人对线时不会轻易被击杀。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span class=&quot;bjh-p&quot;&gt;下路：战士、刺客、辅助、射手类英雄推荐走下路，而需要走下路的英雄应该尽量地辅助射手，因为射手前期比较脆皮。下路对应的是对面上野区，是蓝Buff存在的野区，射手被辅助的好的话，我方下路被辅助的射手就可以对敌方造成高额的伤害。中路：法师类英雄最好是选择中路。&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;三、注意和队友的配合&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 16px; text-align: justify; display: inline !important; font-family: arial;&quot;&gt;这个游戏是团战游戏，推塔游戏，所以，游戏中很需要与队友团结，要和队友共同承担，同时沟通也是很重要的，遇到问题和队友沟通，互相配合。以达到利益最大化。从而赢得游戏。&lt;/span&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;四、学会支援&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&quot;padding: 10px 20px;margin:0 auto;font-size:16px;color:#a40303;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 16px; text-align: justify; display: inline !important; font-family: arial;&quot;&gt;新手和老司机的明显区别之一，老司机在清理兵线和打野的同时，还能够照看小地图，随时支援近处的队友，可消耗对手或直接收取人头。所以值得新手学习。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3);&quot;&gt;&lt;img src=&quot;https://image.135editor.com/files/users/689/6897714/201910/3nwtHWBc_ROTv.jpg&quot; data-ratio=&quot;1&quot; alt=&quot;wz.jpg&quot;/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`g_fabu`='娱乐' WHERE `g_id` = 1 [ RunTime:0.1210s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000932s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005568s ]
+
+[ 2019-10-02T20:57:32+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005408s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000758s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003716s ]
+
+[ 2019-10-02T22:06:17+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004776s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1189s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 2 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000787s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003990s ]
+
+[ 2019-10-02T22:07:01+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007988s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0735s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_game` SET `g_title`='■ 和平精英',`g_author`='呆呆',`g_content`='&lt;section data-role=&quot;outer&quot; label=&quot;Powered by 135editor.com&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;1&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;枪械的选择&lt;/span&gt;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;新手一般就配一把步枪和狙击枪，但是步枪要&amp;nbsp; &amp;nbsp;选M4A1或者Scar-L步枪，他们适合中距离作&amp;nbsp; &amp;nbsp;战，后坐力很小。千万不要轻易触碰AKM，它&amp;nbsp; &amp;nbsp;的后坐力会让你怀疑人生的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;2&quot;&gt;2&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; text-align: center; box-sizing: border-box;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px;&quot;&gt;跑毒&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;随着后面圈越来越小，跑毒是无法避免的，但是切记一定要沿着毒圈跑，不要在空旷的地段跑，不要直接进入安全区中心。否则会被四面八方的人打靶，成为众矢之的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;br/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;3&quot;&gt;3&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong&gt;收集小物资&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里面不仅有各式各样的枪械，还有很多小东西。比如止疼药、饮料等必需品，但是还有一些经常被人们忽视，就像烟雾弹、闪光弹、燃烧瓶等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;他们作用其实是很大的，烟雾弹无论是在平原转移，还是在救人的时候都可以充当掩体的作用，而闪光弹在突进、贴脸打时有奇效，几秒的时间足够你将敌人击杀了。而手雷、燃烧瓶则是对付有掩体敌人的神器了。&lt;/span&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;4&quot;&gt;4&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;配件的选择&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里有各种各样的配件，但是很多玩家都盲目的选择。就比如水平握把和垂直握把，一个减少水平后坐力，一个减少垂直后坐力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; 一般垂直后坐力是比水平后坐力好控制的，所以不要盲目的选择垂直握把。而像轻型握把适合单点，对于SKS这种单点的狙击枪最适合不过了&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`g_fabu`='娱乐' WHERE `g_id` = 2 [ RunTime:0.0973s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003650s ]
+
+[ 2019-10-02T22:07:03+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006316s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0699s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006061s ]
+
+[ 2019-10-02T22:08:45+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006394s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0711s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 1 LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000805s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009837s ]
+
+[ 2019-10-02T22:08:57+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003435s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0651s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_game` SET `g_title`='■ 王者荣耀新人教学',`g_author`='wendy',`g_content`='&lt;section data-role=&quot;outer&quot; label=&quot;Powered by 135editor.com&quot; style=&quot;font-size: 16px; margin-top: 50px;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;一、英雄所带技能的推荐：&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;关于新手玩家刚开始拥有的英雄技能有&amp;quot;惩戒&amp;quot;、&amp;quot;斩杀&amp;quot;还有&amp;quot;狂暴&amp;quot;，我建议先带&amp;quot;斩杀&amp;quot;还有&amp;quot;狂暴&amp;quot;玩一玩，这样可以很容易取得人头，获得更多的经济。 &amp;quot;惩戒&amp;quot;的话，比较适合打野的英雄，但是在新手时期，我觉得还是注重于对技能的培养吧。打野可以后期在练习。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;随着等级的提高，还会解锁解锁&amp;quot;幽灵疾步&amp;quot;、&amp;quot;治疗术&amp;quot;和&amp;quot;干扰&amp;quot;，这个技能都很适合新手使用。&amp;quot;幽灵疾步&amp;quot;可以增加移动速度， &amp;quot;治疗术&amp;quot;有回复自己与周围队友的最大生命值的能力，&amp;quot;干扰&amp;quot;有着沉默防御塔或者水晶几秒的能力，再之后还会解锁&amp;quot;眩晕&amp;quot;、&amp;quot;净化&amp;quot;、&amp;quot;弱化&amp;quot;这三个技能。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;&lt;img src=&quot;https://image.135editor.com/files/users/689/6897714/201910/FVZVTWsL_t99t.jpg&quot; data-ratio=&quot;1&quot; alt=&quot;jineng.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;二、各类&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;英雄的推荐路线：&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span class=&quot;bjh-p&quot;&gt;上路：广大人群都是觉得坦克类的英雄走上路比较合适，我方的上路相对的是对面的下野区，同时就是红Buff所在的野区，作为一个上单，必然要面对拿了红BUFF的射手，前期更难受，处理不好，分分送一血，而坦克英雄的血比较厚，对阵带有红Buff的敌人对线时不会轻易被击杀。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span class=&quot;bjh-p&quot;&gt;下路：战士、刺客、辅助、射手类英雄推荐走下路，而需要走下路的英雄应该尽量地辅助射手，因为射手前期比较脆皮。下路对应的是对面上野区，是蓝Buff存在的野区，射手被辅助的好的话，我方下路被辅助的射手就可以对敌方造成高额的伤害。中路：法师类英雄最好是选择中路。&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;三、注意和队友的配合&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 16px; text-align: justify; display: inline !important; font-family: arial;&quot;&gt;这个游戏是团战游戏，推塔游戏，所以，游戏中很需要与队友团结，要和队友共同承担，同时沟通也是很重要的，遇到问题和队友沟通，互相配合。以达到利益最大化。从而赢得游戏。&lt;/span&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;四、学会支援&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&quot;padding: 10px 20px;margin:0 auto;font-size:16px;color:#a40303;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 16px; text-align: justify; display: inline !important; font-family: arial;&quot;&gt;新手和老司机的明显区别之一，老司机在清理兵线和打野的同时，还能够照看小地图，随时支援近处的队友，可消耗对手或直接收取人头。所以值得新手学习。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3);&quot;&gt;&lt;img src=&quot;https://image.135editor.com/files/users/689/6897714/201910/3nwtHWBc_ROTv.jpg&quot; data-ratio=&quot;1&quot; alt=&quot;wz.jpg&quot;/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`g_fabu`='娱乐' WHERE `g_id` = 1 [ RunTime:0.0691s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007399s ]
+
+[ 2019-10-02T22:08:59+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005709s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0852s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006138s ]
+
+[ 2019-10-02T22:09:02+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003740s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1107s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 2 LIMIT 1   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006125s ]
+
+[ 2019-10-02T22:09:12+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005421s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0978s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_game` SET `g_title`='■ 和平精英',`g_author`='呆呆',`g_content`='&lt;section data-role=&quot;outer&quot; label=&quot;Powered by 135editor.com&quot; style=&quot;font-size: 16px; margin-top: 50px;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;1&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;枪械的选择&lt;/span&gt;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;新手一般就配一把步枪和狙击枪，但是步枪要&amp;nbsp; &amp;nbsp;选M4A1或者Scar-L步枪，他们适合中距离作&amp;nbsp; &amp;nbsp;战，后坐力很小。千万不要轻易触碰AKM，它&amp;nbsp; &amp;nbsp;的后坐力会让你怀疑人生的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;2&quot;&gt;2&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; text-align: center; box-sizing: border-box;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px;&quot;&gt;跑毒&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;随着后面圈越来越小，跑毒是无法避免的，但是切记一定要沿着毒圈跑，不要在空旷的地段跑，不要直接进入安全区中心。否则会被四面八方的人打靶，成为众矢之的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;br/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;3&quot;&gt;3&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong&gt;收集小物资&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里面不仅有各式各样的枪械，还有很多小东西。比如止疼药、饮料等必需品，但是还有一些经常被人们忽视，就像烟雾弹、闪光弹、燃烧瓶等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;他们作用其实是很大的，烟雾弹无论是在平原转移，还是在救人的时候都可以充当掩体的作用，而闪光弹在突进、贴脸打时有奇效，几秒的时间足够你将敌人击杀了。而手雷、燃烧瓶则是对付有掩体敌人的神器了。&lt;/span&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;4&quot;&gt;4&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;配件的选择&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里有各种各样的配件，但是很多玩家都盲目的选择。就比如水平握把和垂直握把，一个减少水平后坐力，一个减少垂直后坐力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; 一般垂直后坐力是比水平后坐力好控制的，所以不要盲目的选择垂直握把。而像轻型握把适合单点，对于SKS这种单点的狙击枪最适合不过了&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`g_fabu`='娱乐' WHERE `g_id` = 2 [ RunTime:0.0823s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004094s ]
+
+[ 2019-10-02T22:09:13+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007685s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0777s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003594s ]
+

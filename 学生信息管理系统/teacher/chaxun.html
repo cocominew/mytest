@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>查询服务界面</title>
+    <style type="text/css">
+        th {
+            font-family: "微软雅黑";
+            font-size: 15px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+<hr size="4" color="#D8FCFD"/>
+<div style="height:180px;width:180px; margin:0px auto;" align="right">
+    <p style="text-align:center;">
+    <center><img src="../image/xin3.JPG" width="180" height="180"/></center>
+    </p>
+</div>
+<div style="font-size:20px; font-family:'华文新魏'; color:rgb(0,0,0) ;"
+           align="center">学生信息查询</div>
+<div style="border:1px; border-color:#00bee7;" align="center">
+    <form action="select.php" method="post" style="margin:25px auto; padding:30px; box-shadow:1px 1px 2px 1px #aaaaaa;
+border-radius:3px; width:380px;">
+        <center>
+            <table>
+                <tr><th>学号:</th><td><input type="text" name="id" style="background-color:rgb(250,255,189);border-radius:3px;color:rgb(0,0,0); line-height:15px; width:100px;"></td></tr>
+                <tr><th>姓名:</th><td><input type="text" name="name" style="background-color:rgb(250,255,189);border-radius:3px;color:rgb(0,0,0); line-height:15px; width:100px;"></td></tr>
+                <tr><th>班级:</th><td><input type="text" name="class" style="background-color: rgb(250,255,189);border-radius:3px;color:rgb(0,0,0); line-height:20px; width:100px;"></td></tr></table>
+            <br />&nbsp;&nbsp;
+            <input type="submit" value="查询" style="height:30px; border:1px; background-color:#00bee7; color:#fff; width:72px; border-radius:3px;" />&nbsp;&nbsp;
+            <input type="reset" value="重置" style="height:30px; border:1px; background-color:#00bee7; color:#fff; width:72px; border-radius:3px;">
+        </center>
+    </form>
+</div>
+</body>
+</html>

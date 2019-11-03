@@ -1,0 +1,1559 @@
+[ 2019-09-23T12:43:00+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000930s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003165s ]
+
+[ 2019-09-23T12:43:54+08:00 ] ::1 /xunmi/index.php/Admin/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.257291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.257926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003285s ]
+
+[ 2019-09-23T12:43:55+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000856s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004067s ]
+
+[ 2019-09-23T12:43:58+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.220213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006973s ]
+
+[ 2019-09-23T12:43:59+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004771s ]
+
+[ 2019-09-23T12:47:37+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005764s ]
+
+[ 2019-09-23T12:56:56+08:00 ] ::1 /xunmi/index.php/Admin/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005049s ]
+
+[ 2019-09-23T12:56:58+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003029s ]
+
+[ 2019-09-23T12:57:01+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004176s ]
+
+[ 2019-09-23T12:57:01+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000289s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004258s ]
+
+[ 2019-09-23T13:08:35+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005080s ]
+
+[ 2019-09-23T13:08:39+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000827s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003697s ]
+
+[ 2019-09-23T13:08:39+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000960s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003848s ]
+
+[ 2019-09-23T13:08:59+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010224s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.0752s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2019-09-23T13:08:59+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004706s ]
+
+[ 2019-09-23T13:09:18+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000874s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003823s ]
+
+[ 2019-09-23T13:09:20+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000872s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001783s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004656s ]
+
+[ 2019-09-23T13:09:20+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004065s ]
+
+[ 2019-09-23T13:09:24+08:00 ] ::1 /xunmi/index.php/Admin/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007856s ]
+
+[ 2019-09-23T13:09:25+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004206s ]
+
+[ 2019-09-23T13:09:29+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000921s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005141s ]
+
+[ 2019-09-23T13:09:29+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009550s ]
+
+[ 2019-09-23T13:09:54+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004725s ]
+
+[ 2019-09-23T13:09:55+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006519s ]
+
+[ 2019-09-23T13:10:10+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009503s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.0589s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2019-09-23T13:10:11+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003789s ]
+
+[ 2019-09-23T13:24:15+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005819s ]
+
+[ 2019-09-23T13:24:18+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000834s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003860s ]
+
+[ 2019-09-23T13:24:18+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012865s ]
+
+[ 2019-09-23T13:31:30+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003484s ]
+
+[ 2019-09-23T13:31:33+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001605s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005102s ]
+
+[ 2019-09-23T13:31:37+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify/0.8843301116151414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000406s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004629s ]
+
+[ 2019-09-23T13:31:41+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000900s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003403s ]
+
+[ 2019-09-23T13:31:45+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004027s ]
+
+[ 2019-09-23T13:31:45+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006705s ]
+
+[ 2019-09-23T13:31:57+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007857s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.0611s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2019-09-23T13:31:57+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004041s ]
+
+[ 2019-09-23T13:32:12+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003664s ]
+
+[ 2019-09-23T13:36:29+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003286s ]
+
+[ 2019-09-23T13:36:33+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003838s ]
+
+[ 2019-09-23T13:36:33+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005253s ]
+
+[ 2019-09-23T13:42:07+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000423s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.385773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.386244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005597s ]
+
+[ 2019-09-23T13:42:10+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000945s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005301s ]
+
+[ 2019-09-23T13:42:12+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify/0.4170377508558598
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004015s ]
+
+[ 2019-09-23T13:42:19+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007197s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2019-09-23T13:42:19+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000324s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000754s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004216s ]
+
+[ 2019-09-23T19:34:46+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000493s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.533734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.535421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007688s ]
+
+[ 2019-09-23T19:34:49+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000607s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001755s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004533s ]
+
+[ 2019-09-23T19:34:50+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005291s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004837s ]
+
+[ 2019-09-23T19:35:01+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007608s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.1073s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0273s ]
+
+[ 2019-09-23T19:35:01+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000917s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005864s ]
+
+[ 2019-09-23T19:35:08+08:00 ] ::1 /xunmi/index.php/Admin/Mz/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+SQL: SHOW COLUMNS FROM `xm_mz` [ RunTime:0.1359s ]
+SQL: SELECT * FROM `xm_mz`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000744s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.267825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.268464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018825s ]
+
+[ 2019-09-23T19:35:13+08:00 ] ::1 /xunmi/index.php/Admin/Mz/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006595s ]
+SQL: SHOW COLUMNS FROM `xm_mz` [ RunTime:0.0697s ]
+SQL: SELECT * FROM `xm_mz` WHERE `m_id` = 3 LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000589s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.309908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.310587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015009s ]
+
+[ 2019-09-23T19:35:24+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017523s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0910s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000949s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013373s ]
+
+[ 2019-09-23T19:35:29+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003602s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0588s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 1 LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000779s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.208298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.213507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019190s ]
+
+[ 2019-09-23T19:35:49+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007999s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1168s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000794s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.046969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048071s ]
+
+[ 2019-09-23T19:36:00+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003692s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 4 LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000801s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013212s ]
+
+[ 2019-09-23T19:36:27+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008014s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.2637s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 化妆步骤',`h_author`='嘟嘟',`h_content`='&lt;p style=&quot;text-align: center;&quot;&gt;&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=13493034&amp;cid=22093695&amp;page=1&quot; frameborder=&quot;no&quot; allowfullscreen=&quot;true&quot; width=&quot;600px&quot; height=&quot;500px&quot;&gt; &lt;/iframe&gt;&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 20px;color: rgb(255, 71, 172);text-align: center&quot;&gt;化妆步骤&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;position: relative;float: left;margin-left:8px;&quot;&gt;1.隔离&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;2.气垫&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;3.遮瑕&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;4.散粉&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;5.腮红&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;6.画眉毛&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;7.涂眼影&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;8.画眼线&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;9.贴双眼皮贴&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;10.涂睫毛膏&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;11.修容&lt;/p&gt;&lt;p style=&quot;font-family: 黑体;font-size: 18px;color: tomato;float: left;margin-left:8px;&quot;&gt;12.高光阴影&lt;/p&gt;&lt;p style=&quot;font-family: 黑体; font-size: 18px; color: tomato; float: left; margin-left: 8px;&quot;&gt;13.涂口红&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`h_fabu`='美妆护肤' WHERE `h_id` = 4 [ RunTime:0.0613s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005135s ]
+
+[ 2019-09-23T19:36:29+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005600s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0903s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000926s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018394s ]
+
+[ 2019-09-23T19:36:51+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006308s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1303s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008269s ]
+
+[ 2019-09-23T19:47:24+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000852s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008458s ]
+
+[ 2019-09-23T19:47:28+08:00 ] ::1 /xunmi/index.php/Admin/Poem/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003564s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.1018s ]
+SQL: SELECT * FROM `xm_poem`  [ RunTime:0.0138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.307504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006334s ]
+
+[ 2019-09-23T19:47:30+08:00 ] ::1 /xunmi/index.php/Admin/Poem/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004315s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0555s ]
+SQL: SELECT * FROM `xm_poem` WHERE `p_id` = 3 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.269401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.270102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006611s ]
+
+[ 2019-09-23T19:47:45+08:00 ] ::1 /xunmi/index.php/Admin/Poem/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013384s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0787s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_poem` SET `p_title`='■ 忆江南',`p_author`='demo',`p_content`='&lt;meta charset=&quot;UTF-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;/&gt;&lt;title&gt;Document&lt;/title&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;忆江南&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;shiren&quot;&gt;【唐】白居易&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南好，风景旧曾谙。日出江花红胜火，春来江水绿如蓝。能不忆江南？&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南忆，最忆是杭州。山寺月中寻桂子，郡亭枕上看潮头。何日更重游！&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南忆，其次忆吴宫。吴酒一杯春竹叶，吴娃双舞醉芙蓉。早晚复相逢！&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566544487474597.jpg&quot; width=&quot;600px&quot; title=&quot;1566544487474597.jpg&quot; alt=&quot;yjn.jpg&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;译文&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的风景多么美好，如画的风景久已熟悉。春天到来时，太阳从江面升起，把江边的鲜花照得比火红，碧绿的江水绿得胜过蓝草。怎能叫人不怀念江南？&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的回忆，最能唤起追思的是像天堂一样的杭州：游玩灵隐寺寻找皎洁月亮中的桂子，登上郡亭，枕卧其上，欣赏那起落的钱塘江大潮。什么时候能够再次去游玩？&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的回忆，再来就是回忆苏州的吴宫，喝一喝吴宫的美酒春竹叶，看一看吴宫的歌女双双起舞像朵朵迷人的芙蓉。不知何时会再次相逢。&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;赏析&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;第一首摄取一年之春的江南景色，写得生机盎然，色彩艳丽。诗人敷彩设色，用色彩明艳的辞藻，很好地显示出江南春色的迷人之态，像作者这样长期居住在苏杭的人自然是“能不忆江南！”即便素未到过江南的人也会急欲一睹为快。第二、三首便是通过突出描绘苏、杭这两个被人喻为可同天堂媲美的地方来验证“江南好”了。三首词各自独立而又互为补充，分别描绘江南的景色美，风物美和女性之美，每首都以“江南好”开篇，而以直接深情之句作结，艺术概括力强，意境奇妙，使人读其词而直欲奔向江南实地观览一番。&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95296&quot; style=&quot;margin-top: -636px; margin-left: 700px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;&quot;&gt;&lt;section style=&quot;padding-right:0.6em;flex:1;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94814&quot;&gt;&lt;section style=&quot;padding: 10px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 2em;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left: -5px;margin-bottom: -4px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdOQkhISDVoeGliT1lldG1iSUxIN0dqbGNpYUo5T1BsR1RlRHF6cktma2JlaWNENGxmbTBVYWpWRmcvMD93eF9mbXQ9Z2lm&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;margin:-18px 0px;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;color: #3f3e3f;padding:0px 1em;&quot;&gt;&lt;p&gt;白居易，字乐天，号香山居士，又号醉吟先生。是唐代伟大的现实主义诗人，唐代三大诗人之一。白居易与元稹共同倡导新乐府运动，世称“元白”，与刘禹锡并称“刘白”。白居易的诗歌题材广泛，形式多样，语言平易通俗，有“诗魔”和“诗王”之称。官至翰林学士、左赞善大夫。公元846年，白居易在洛阳逝世，葬于香山。有《白氏长庆集》传世，代表诗作有《长恨歌》、《卖炭翁》、《琵琶行》等。&lt;/p&gt;&lt;/section&gt;&lt;section style=&quot;width:2em;float: right;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left:5px;margin-top: -2px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdhdGljNm9Fa2dtZTJqYzd4d3JFcDJocGU4bDF5UFI2M2F0OXhqajdYbXBaNVNDUXZrOU1SekJ3LzA/d3hfZm10PWdpZg==&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;width:45px;&quot;&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;width: 1em;text-align:center;font-size:16px;margin:4px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:25px;height:25px;margin:0px auto;background:rgba(142,171,118,1);border-radius:100% ;margin-top:4px;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:20px;height:20px;margin:0px auto;background:rgba(142,171,118,0.6);border-radius:100% ;margin-top: -13px;&quot;&gt;作者介绍&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`p_fabu`='诗词' WHERE `p_id` = 3 [ RunTime:0.2145s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\PoemController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000932s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010748s ]
+
+[ 2019-09-23T19:47:46+08:00 ] ::1 /xunmi/index.php/Admin/Poem/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004136s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0715s ]
+SQL: SELECT * FROM `xm_poem`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000735s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006090s ]
+
+[ 2019-09-23T23:21:18+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004495s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0993s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.211698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017016s ]
+
+[ 2019-09-23T23:21:23+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006432s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0895s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 2 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000798s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.315832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.317379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010377s ]
+
+[ 2019-09-23T23:21:31+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003407s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0726s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.189579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023845s ]
+
+[ 2019-09-23T23:21:38+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004942s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1077s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 8 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011799s ]
+
+[ 2019-09-23T23:21:51+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000474s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007088s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0517s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 可乐鸡翅的做法',`h_author`='丹丹',`h_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①在鸡翅上划一刀，在碗中放入切好的葱姜、料酒、酱油、盐，用手抓匀，腌制20-30分钟。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566547147422615.jpg&quot; width=&quot;600px&quot; title=&quot;1566547147422615.jpg&quot; alt=&quot;jichi1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②热锅&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;倒油，放入鸡翅，开小火煎至两面金黄，倒入适量酱油。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566547163756111.jpg&quot; width=&quot;600px&quot; title=&quot;1566547163756111.jpg&quot; alt=&quot;jichi2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③锅中倒入可乐，与鸡翅持平即可，开中火焖至汤汁变浓，转小火收汁出锅装盘即可。 &lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566547181830040.jpg&quot; width=&quot;600px&quot; title=&quot;1566547181830040.jpg&quot; alt=&quot;jichi3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;可乐鸡翅&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; color: #000000; font-family: sans-serif; font-size: 16px;               &quot;&gt;可乐鸡翅是一道以鸡翅和可乐为主料，以料酒、葱、姜、酱油、盐、鸡精作为调料制作而成的美食。制作原料使用鸡翅中为佳。可乐鸡翅具有味道鲜美、色泽艳丽、鸡肉嫩滑、咸甜适中的特点。一般人群均可食用。不适合感冒发热、内火偏旺、痰湿偏重之人；患有热毒疖肿、高血压、血脂偏高、胆囊炎、胆石症患者忌食。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`h_fabu`='家常菜谱' WHERE `h_id` = 8 [ RunTime:0.0587s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003951s ]
+
+[ 2019-09-23T23:21:53+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005468s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010138s ]
+
+[ 2019-09-23T23:21:57+08:00 ] ::1 /xunmi/index.php/Admin/Poem/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003848s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.1245s ]
+SQL: SELECT * FROM `xm_poem`  [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004068s ]
+
+[ 2019-09-23T23:22:00+08:00 ] ::1 /xunmi/index.php/Admin/Poem/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003299s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `xm_poem` WHERE `p_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000713s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008829s ]
+
+[ 2019-09-23T23:22:07+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007251s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0937s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012330s ]
+
+[ 2019-09-23T23:22:12+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003405s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0895s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 5 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010194s ]
+
+[ 2019-09-23T23:22:23+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008773s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1163s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 忆江南',`h_author`='demo',`h_content`='&lt;meta charset=&quot;UTF-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;/&gt;&lt;title&gt;Document&lt;/title&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;忆江南&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;shiren&quot;&gt;【唐】白居易&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南好，风景旧曾谙。日出江花红胜火，春来江水绿如蓝。能不忆江南？&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南忆，最忆是杭州。山寺月中寻桂子，郡亭枕上看潮头。何日更重游！&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南忆，其次忆吴宫。吴酒一杯春竹叶，吴娃双舞醉芙蓉。早晚复相逢！&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566544487474597.jpg&quot; width=&quot;600px&quot; title=&quot;1566544487474597.jpg&quot; alt=&quot;yjn.jpg&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;译文&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的风景多么美好，如画的风景久已熟悉。春天到来时，太阳从江面升起，把江边的鲜花照得比火红，碧绿的江水绿得胜过蓝草。怎能叫人不怀念江南？&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的回忆，最能唤起追思的是像天堂一样的杭州：游玩灵隐寺寻找皎洁月亮中的桂子，登上郡亭，枕卧其上，欣赏那起落的钱塘江大潮。什么时候能够再次去游玩？&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的回忆，再来就是回忆苏州的吴宫，喝一喝吴宫的美酒春竹叶，看一看吴宫的歌女双双起舞像朵朵迷人的芙蓉。不知何时会再次相逢。&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;赏析&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;第一首摄取一年之春的江南景色，写得生机盎然，色彩艳丽。诗人敷彩设色，用色彩明艳的辞藻，很好地显示出江南春色的迷人之态，像作者这样长期居住在苏杭的人自然是“能不忆江南！”即便素未到过江南的人也会急欲一睹为快。第二、三首便是通过突出描绘苏、杭这两个被人喻为可同天堂媲美的地方来验证“江南好”了。三首词各自独立而又互为补充，分别描绘江南的景色美，风物美和女性之美，每首都以“江南好”开篇，而以直接深情之句作结，艺术概括力强，意境奇妙，使人读其词而直欲奔向江南实地观览一番。&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95296&quot; style=&quot;margin-top: -636px; margin-left: 700px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;&quot;&gt;&lt;section style=&quot;padding-right:0.6em;flex:1;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94814&quot;&gt;&lt;section style=&quot;padding: 10px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 2em;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left: -5px;margin-bottom: -4px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdOQkhISDVoeGliT1lldG1iSUxIN0dqbGNpYUo5T1BsR1RlRHF6cktma2JlaWNENGxmbTBVYWpWRmcvMD93eF9mbXQ9Z2lm&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;margin:-18px 0px;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;color: #3f3e3f;padding:0px 1em;&quot;&gt;&lt;p&gt;白居易，字乐天，号香山居士，又号醉吟先生。是唐代伟大的现实主义诗人，唐代三大诗人之一。白居易与元稹共同倡导新乐府运动，世称“元白”，与刘禹锡并称“刘白”。白居易的诗歌题材广泛，形式多样，语言平易通俗，有“诗魔”和“诗王”之称。官至翰林学士、左赞善大夫。公元846年，白居易在洛阳逝世，葬于香山。有《白氏长庆集》传世，代表诗作有《长恨歌》、《卖炭翁》、《琵琶行》等。&lt;/p&gt;&lt;/section&gt;&lt;section style=&quot;width:2em;float: right;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left:5px;margin-top: -2px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdhdGljNm9Fa2dtZTJqYzd4d3JFcDJocGU4bDF5UFI2M2F0OXhqajdYbXBaNVNDUXZrOU1SekJ3LzA/d3hfZm10PWdpZg==&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;width:45px;&quot;&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;width: 1em;text-align:center;font-size:16px;margin:4px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:25px;height:25px;margin:0px auto;background:rgba(142,171,118,1);border-radius:100% ;margin-top:4px;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:20px;height:20px;margin:0px auto;background:rgba(142,171,118,0.6);border-radius:100% ;margin-top: -13px;&quot;&gt;作者介绍&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`h_fabu`='诗词' WHERE `h_id` = 5 [ RunTime:0.0535s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003477s ]
+
+[ 2019-09-23T23:22:24+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004307s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010023s ]
+
+[ 2019-09-23T23:22:27+08:00 ] ::1 /xunmi/index.php/Admin/Poem/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006752s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.1171s ]
+SQL: SELECT * FROM `xm_poem`  [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000795s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014165s ]
+
+[ 2019-09-23T23:22:30+08:00 ] ::1 /xunmi/index.php/Admin/Poem/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006838s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0793s ]
+SQL: SELECT * FROM `xm_poem` WHERE `p_id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005144s ]
+
+[ 2019-09-23T23:22:36+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004754s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0691s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013813s ]
+
+[ 2019-09-23T23:22:41+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003886s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0938s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 11 LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000609s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005654s ]
+
+[ 2019-09-23T23:22:58+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009248s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1468s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 离骚',`h_author`='艾米',`h_content`='&lt;meta charset=&quot;UTF-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;/&gt;&lt;title&gt;Document&lt;/title&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;离骚(节选)&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 189px;&quot;&gt;【先秦】屈原&lt;/p&gt;&lt;p class=&quot;shi1&quot;&gt;余既滋兰之九畹兮，又树蕙之百亩。畦留夷与揭车兮，杂杜衡与芳芷。&lt;/p&gt;&lt;p class=&quot;shi1&quot;&gt;冀枝叶之峻茂兮，愿俟时乎吾将刈。虽萎绝其亦何伤兮，哀众芳之芜秽。&lt;/p&gt;&lt;p class=&quot;shi1&quot;&gt;众皆竞进以贪婪兮，凭不厌乎求索。羌内恕己以量人兮，各兴心而嫉妒。&lt;/p&gt;&lt;p class=&quot;shi1&quot;&gt;忽驰骛以追逐兮，非余心之所急。老冉冉其将至兮，恐修名之不立。&lt;/p&gt;&lt;p class=&quot;shi1&quot;&gt;朝饮木兰之坠露兮，夕餐秋菊之落英。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566549376102411.jpg&quot; width=&quot;600px&quot; title=&quot;1566549376102411.jpg&quot; alt=&quot;lisao1.jpg&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;ci1&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;苟余情其信姱以练要兮，长顑颔亦何伤。掔木根以结茝兮，贯薜荔之落蕊。&lt;/p&gt;&lt;p class=&quot;ci1&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;矫菌桂以纫蕙兮，索胡绳之纚纚。謇吾法夫前修兮，非世俗之所服。&lt;/p&gt;&lt;p class=&quot;ci1&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;虽不周于今之人兮，愿依彭咸之遗则。长太息以掩涕兮，哀民生之多艰。&lt;/p&gt;&lt;p class=&quot;ci1&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;余虽好修姱以鞿羁兮，謇朝谇而夕替。既替余以蕙纕兮，又申之以揽茝。&lt;/p&gt;&lt;p class=&quot;ci1&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;亦余心之所善兮，虽九死其犹未悔。&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;译文&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;我已经栽培了很多春兰，又种植香草秋蕙一大片。分垄培植了留夷和揭车，还把杜衡芳芷套种其间。我希望它们都枝繁叶茂，等待着我收割的那一天。它们枯萎死绝有何伤害，使我痛心的是它们质变。大家都拚命争着向上爬，利欲熏心而又贪得无厌。他们猜疑别人宽恕自己，他们勾心斗角相互妒忌。急于奔走钻营争权夺利，这些不是我追求的东西。只觉得老年在渐渐来临，担心美好名声不能树立。早晨我饮木兰上的露滴，晚上我用菊花残瓣充饥。只要我的情感坚贞不易，形消骨立又有什么关系。我用树木的根编结茝草，再把薜荔花蕊穿在一起。我拿菌桂枝条联结蕙草，胡绳搓成绳索又长又好。我向古代的圣贤学习啊，不是世间俗人能够做到。我与现在的人虽不相容，我却愿依照彭咸的遗教。&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;我揩着眼泪啊声声长叹，可怜人生道路多么艰难。我虽爱好修洁严于责己，早晨被辱骂晚上又丢官。他们攻击我佩带蕙草啊，又指责我爱好采集茝兰。这是我心中追求的东西，就是多次死亡也不后悔。&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;赏析&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;《离骚》为我们塑造了一个高大的抒情主人公形象。首先，他有着突出的外部形象的特征。其次，他具有鲜明的思想性格。第一，他是一位进步的政治改革家，主张法治(“循绳墨而不颇”)，主张举贤授能。第二，他主张美政，重视人民的利益和人民的作用，反对统治者的荒淫暴虐和臣子的追逐私利。第三，他追求真理，坚强不屈（“亦余心之所善兮，虽九死其犹未悔”，“虽体解吾犹未变兮，岂余心之可惩”)。这个形象，是中华民族精神的集中体现，两千多年来给了无数仁人志士以品格与行为的示范，也给了他们以力量。&lt;/p&gt;&lt;p style=&quot;font-family: 微软雅黑;width: 600px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;在诗歌形式上，屈原打破了《诗经》那种以整齐的四言句为主、简短朴素的体制，创造出句式可长可短、篇幅宏大、内涵丰富复杂的“骚体诗”，这也具有极重要的意义。&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95296&quot; style=&quot;margin-top: -1160px; margin-left: 700px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;&quot;&gt;&lt;section style=&quot;padding-right:0.6em;flex:1;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94814&quot;&gt;&lt;section style=&quot;padding: 10px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 2em;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left: -5px;margin-bottom: -4px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdOQkhISDVoeGliT1lldG1iSUxIN0dqbGNpYUo5T1BsR1RlRHF6cktma2JlaWNENGxmbTBVYWpWRmcvMD93eF9mbXQ9Z2lm&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;margin:-18px 0px;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;color: #3f3e3f;padding:0px 1em;&quot;&gt;&lt;p&gt;屈原（约公元前340—公元前278年），中国战国时期楚国诗人、政治家。出生于楚国丹阳秭归（今湖北宜昌）。芈姓，屈氏，名平，字原；又自云名正则，字灵均。早年受楚怀王信任，任左徒、三闾大夫，兼管内政外交大事。他提倡“美政”。因遭贵族排挤诽谤，被先后流放至汉北和沅湘流域。楚国郢都被秦军攻破后，屈原自沉于汨罗江，以身殉国。
+屈原是中国历史上第一位伟大的爱国诗人，中国浪漫主义文学的奠基人，“楚辞”的创立者和代表作家，开辟了“香草美人”的传统，被誉为“辞赋之祖”“中华诗祖”。其主要作品有《离骚》《九歌》《九章》《天问》等。以屈原作品为主体的《楚辞》是中国浪漫主义文学的源头之一，与《诗经》并称“风骚”，对后世诗歌产生了深远影响。&lt;/p&gt;&lt;/section&gt;&lt;section style=&quot;width:2em;float: right;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left:5px;margin-top: -2px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdhdGljNm9Fa2dtZTJqYzd4d3JFcDJocGU4bDF5UFI2M2F0OXhqajdYbXBaNVNDUXZrOU1SekJ3LzA/d3hfZm10PWdpZg==&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;width:45px;&quot;&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;width: 1em;text-align:center;font-size:16px;margin:4px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:25px;height:25px;margin:0px auto;background:rgba(142,171,118,1);border-radius:100% ;margin-top:4px;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:20px;height:20px;margin:0px auto;background:rgba(142,171,118,0.6);border-radius:100% ;margin-top: -13px;&quot;&gt;作者介绍&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`h_fabu`='诗词' WHERE `h_id` = 11 [ RunTime:0.1160s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007433s ]
+
+[ 2019-09-23T23:22:59+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000994s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004396s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0626s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000472s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016163s ]
+

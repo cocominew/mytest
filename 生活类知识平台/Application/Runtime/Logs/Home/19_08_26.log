@@ -1,0 +1,709 @@
+[ 2019-08-26T15:20:06+08:00 ] ::1 /xunmi/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0838s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2019-08-26T15:20:11+08:00 ] ::1 /xunmi/index.php/Home/Cook/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_food` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_food` LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\fca994ea07cfbe42aa2eb3b5c25bc626.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2019-08-26T15:20:15+08:00 ] ::1 /xunmi/index.php/Home/Cook/content/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\f8505d235564eb75316c15a058783499.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2019-08-26T15:20:24+08:00 ] ::1 /xunmi/index.php/Home/Cook/content/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0599s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\f8505d235564eb75316c15a058783499.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2019-08-26T15:20:39+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+ERR: 无法加载控制器:Trivial
+
+[ 2019-08-26T15:39:03+08:00 ] ::1 /xunmi/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003166s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002834s ]
+
+[ 2019-08-26T15:39:06+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+ERR: 无法加载控制器:Trivial
+
+[ 2019-08-26T15:39:21+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003611s ]
+
+[ 2019-08-26T15:40:19+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0374s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002404s ]
+
+[ 2019-08-26T15:40:42+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002058s ]
+
+[ 2019-08-26T15:47:59+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002642s ]
+
+[ 2019-08-26T15:48:01+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2019-08-26T15:48:50+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003009s ]
+
+[ 2019-08-26T15:48:52+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2019-08-26T15:49:26+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0647s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2019-08-26T15:49:28+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2019-08-26T15:49:36+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0688s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002699s ]
+
+[ 2019-08-26T15:49:41+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-26T15:50:41+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001807s ]
+
+[ 2019-08-26T15:51:01+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001807s ]
+
+[ 2019-08-26T15:51:35+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2019-08-26T15:53:09+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002964s ]
+
+[ 2019-08-26T15:53:10+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2019-08-26T15:53:16+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001014s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2019-08-26T21:59:01+08:00 ] ::1 /xunmi/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0487s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001995s ]
+
+[ 2019-08-26T22:05:35+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003579s ]
+
+[ 2019-08-26T22:05:38+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2019-08-26T22:05:38+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/image/no.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2019-08-26T22:11:30+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016818s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023816s ]
+
+[ 2019-08-26T22:11:30+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/image/no.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+
+[ 2019-08-26T22:42:12+08:00 ] ::1 /xunmi/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0537s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2019-08-26T22:42:15+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003386s ]
+
+[ 2019-08-26T22:42:17+08:00 ] ::1 /xunmi/index.php/Home/Trivial/content/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\3728dcf2ff49ead1d4569a37a7d7b362.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002577s ]
+

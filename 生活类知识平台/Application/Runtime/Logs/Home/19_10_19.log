@@ -1,0 +1,3222 @@
+[ 2019-10-19T00:00:02+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000626s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000981s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2019-10-19T00:00:49+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002205s ]
+
+[ 2019-10-19T00:00:53+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2019-10-19T00:01:34+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2019-10-19T00:03:58+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2019-10-19T00:04:02+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003381s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2019-10-19T00:04:10+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2019-10-19T00:04:11+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2019-10-19T00:04:23+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1067s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2019-10-19T00:04:47+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001854s ]
+
+[ 2019-10-19T00:05:05+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2019-10-19T00:05:59+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002393s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2019-10-19T00:07:10+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003309s ]
+
+[ 2019-10-19T00:08:07+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003183s ]
+
+[ 2019-10-19T00:08:59+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2019-10-19T00:11:50+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2019-10-19T10:34:30+08:00 ] ::1 /xunmi/index.php/Home/Userlogin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.235246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.104975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.105419s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.2058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0155s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008871s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 149 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.767955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.768379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.058032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.058587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034300s ]
+
+[ 2019-10-19T10:35:19+08:00 ] ::1 /xunmi/index.php/Home/Userlogin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003407s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0581s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.1056s ]
+SQL: SELECT * FROM `xm_user` WHERE `username` = 'wang' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0236s ]
+
+[ 2019-10-19T10:35:20+08:00 ] ::1 /xunmi/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005864s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0568s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_hot` LEFT JOIN xm_pros on xm_hot.h_id=xm_pros.ho_id and xm_pros.user_id='1' LEFT JOIN xm_collection ON xm_hot.h_id=xm_collection.ho_id and xm_collection.user_id='1'  ORDER BY h_id asc LIMIT 0,8   [ RunTime:0.2489s ]
+SQL: SHOW COLUMNS FROM `xm_feedback` [ RunTime:0.1468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000489s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.350183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007473s ]
+
+[ 2019-10-19T10:35:25+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007998s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1476s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='1' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='1' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000521s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.347992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.348606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011080s ]
+
+[ 2019-10-19T10:35:31+08:00 ] ::1 /xunmi/index.php/Home/Userlogin/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.933828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.934275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003140s ]
+
+[ 2019-10-19T10:35:33+08:00 ] ::1 /xunmi/index.php/Home/Userlogin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0483s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 149 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+NOTIC: [8] Undefined index: zan D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 215 行.
+NOTIC: [8] Undefined index: collection D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008932s ]
+
+[ 2019-10-19T10:35:38+08:00 ] ::1 /xunmi/index.php/Home/Userlogin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005721s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0637s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0817s ]
+SQL: SELECT * FROM `xm_user` WHERE `username` = 'wang2' AND `user_password` = '2' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-10-19T10:35:39+08:00 ] ::1 /xunmi/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003018s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LEFT JOIN xm_pros on xm_hot.h_id=xm_pros.ho_id and xm_pros.user_id='3' LEFT JOIN xm_collection ON xm_hot.h_id=xm_collection.ho_id and xm_collection.user_id='3'  ORDER BY h_id asc LIMIT 0,8   [ RunTime:0.0773s ]
+SQL: SHOW COLUMNS FROM `xm_feedback` [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000890s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006689s ]
+
+[ 2019-10-19T10:35:43+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1132s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000780s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001548s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.253832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009269s ]
+
+[ 2019-10-19T10:37:13+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003101s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000554s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008733s ]
+
+[ 2019-10-19T10:41:29+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004739s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0764s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000904s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.343936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.344438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008572s ]
+
+[ 2019-10-19T10:51:59+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004816s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0552s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000654s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001777s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.986418s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.986867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006566s ]
+
+[ 2019-10-19T10:52:31+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025732s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2267s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0099s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.324893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006156s ]
+
+[ 2019-10-19T10:52:49+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000563s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004067s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1362s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000894s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.336592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.337242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004564s ]
+
+[ 2019-10-19T10:53:02+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000926s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.293133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006911s ]
+
+[ 2019-10-19T10:54:18+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0749s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000879s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.375234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.375814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006488s ]
+
+[ 2019-10-19T10:54:25+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003536s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.208672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005110s ]
+
+[ 2019-10-19T10:54:52+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003018s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1483s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.277565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.278115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007711s ]
+
+[ 2019-10-19T10:55:27+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002867s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.439620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.440129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009373s ]
+
+[ 2019-10-19T11:03:01+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003918s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0830s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000555s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.337531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.337996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005478s ]
+
+[ 2019-10-19T11:03:30+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003330s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1075s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000742s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.586101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.586662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015347s ]
+
+[ 2019-10-19T11:07:34+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003228s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.450874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.451401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006068s ]
+
+[ 2019-10-19T11:08:11+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003528s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1302s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000876s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.263647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.264091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005587s ]
+
+[ 2019-10-19T11:09:37+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0878s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000463s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000895s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006234s ]
+
+[ 2019-10-19T11:09:57+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0683s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.279899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.280477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004927s ]
+
+[ 2019-10-19T11:10:31+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000694s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003685s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0766s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000529s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.249834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005578s ]
+
+[ 2019-10-19T11:14:27+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004156s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0996s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000615s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.636564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.637226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005059s ]
+
+[ 2019-10-19T11:14:38+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019049s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0566s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000746s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.612668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.613204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008108s ]
+
+[ 2019-10-19T11:21:58+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005098s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0734s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000914s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.266540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007090s ]
+
+[ 2019-10-19T11:22:05+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0772s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000472s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000890s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.264388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.264873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010313s ]
+
+[ 2019-10-19T11:22:42+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000920s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.255728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.256207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008979s ]
+
+[ 2019-10-19T11:26:10+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003256s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1075s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000493s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000901s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.970958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.971581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006663s ]
+
+[ 2019-10-19T11:46:14+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005178s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0833s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000531s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000962s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.356163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.356797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005876s ]
+
+[ 2019-10-19T11:49:30+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004309s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2447s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000872s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.944610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.945420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005758s ]
+
+[ 2019-10-19T11:56:18+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006565s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0816s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000974s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001959s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.630870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.631621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004691s ]
+
+[ 2019-10-19T11:56:59+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004570s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0627s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000930s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.330765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.331346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004844s ]
+
+[ 2019-10-19T12:02:30+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004008s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0758s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000770s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.370392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.371079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005588s ]
+
+[ 2019-10-19T12:03:27+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005105s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0671s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000487s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.295440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.295985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011057s ]
+
+[ 2019-10-19T12:04:06+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006987s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0694s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000893s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.335606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.336921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006335s ]
+
+[ 2019-10-19T12:06:40+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004652s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1278s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.355910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.356631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007722s ]
+
+[ 2019-10-19T12:07:04+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005499s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.273482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.274547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006546s ]
+
+[ 2019-10-19T12:07:24+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006959s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0701s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000891s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.963872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.964693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017010s ]
+
+[ 2019-10-19T12:08:15+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005738s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1837s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000780s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.727719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.728508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005824s ]
+
+[ 2019-10-19T12:26:42+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008664s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0706s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.971810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.973385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008277s ]
+
+[ 2019-10-19T12:27:26+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004112s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0654s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000723s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.350109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006865s ]
+
+[ 2019-10-19T12:28:49+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004613s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000898s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.276020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005328s ]
+
+[ 2019-10-19T12:42:42+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000361s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013291s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2074s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000812s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.966683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.967490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004969s ]
+
+[ 2019-10-19T12:43:22+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0706s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.425194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.426188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014695s ]
+
+[ 2019-10-19T12:43:57+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003108s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000491s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.294709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.295352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010520s ]
+
+[ 2019-10-19T12:44:13+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009086s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2003s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000579s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.951496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.952381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028145s ]
+
+[ 2019-10-19T12:45:23+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005384s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0707s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000584s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.354393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.355054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007631s ]
+
+[ 2019-10-19T12:46:56+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003219s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0562s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000602s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.307969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008603s ]
+
+[ 2019-10-19T12:48:04+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000223s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019864s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0685s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.009857s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.010579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006735s ]
+
+[ 2019-10-19T12:49:43+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011097s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0671s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000943s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.674161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.674795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008387s ]
+
+[ 2019-10-19T12:51:42+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003748s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0591s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000911s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.280723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006601s ]
+
+[ 2019-10-19T12:52:21+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005492s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0849s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000504s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000928s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.820707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.821284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006722s ]
+
+[ 2019-10-19T12:53:16+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005141s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0604s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000635s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.311332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.311954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013382s ]
+
+[ 2019-10-19T12:54:29+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002893s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0584s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.305319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008953s ]
+
+[ 2019-10-19T12:55:51+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003010s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0667s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000547s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.350430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009098s ]
+
+[ 2019-10-19T12:56:34+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0523s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.299945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008630s ]
+
+[ 2019-10-19T12:58:54+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0662s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000482s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000901s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.351624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.352155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006141s ]
+
+[ 2019-10-19T12:59:59+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.284063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009639s ]
+
+[ 2019-10-19T13:01:09+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000462s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003565s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000627s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.279998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.280646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006251s ]
+
+[ 2019-10-19T13:01:50+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005280s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0963s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000485s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000922s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.274985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005458s ]
+
+[ 2019-10-19T13:02:05+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002977s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000553s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.333702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.334227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006526s ]
+
+[ 2019-10-19T13:05:02+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003767s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0855s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000900s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.365658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.366293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009242s ]
+
+[ 2019-10-19T13:06:03+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0543s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000609s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.314981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.315492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006275s ]
+
+[ 2019-10-19T13:06:22+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000748s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002969s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0574s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000511s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000933s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.303715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.304222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010941s ]
+
+[ 2019-10-19T13:07:03+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002908s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0586s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000481s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000910s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.308728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.309204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008547s ]
+
+[ 2019-10-19T13:08:32+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003199s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000723s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.382678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.383315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009156s ]
+
+[ 2019-10-19T13:10:03+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000869s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.329578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.330088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008666s ]
+
+[ 2019-10-19T13:10:24+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005303s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007566s ]
+
+[ 2019-10-19T13:14:32+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007164s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0914s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001732s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.484234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.485153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008744s ]
+
+[ 2019-10-19T13:14:57+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0606s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000698s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.297147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011153s ]
+
+[ 2019-10-19T13:15:21+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005751s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0581s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000896s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.273879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.274313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004406s ]
+
+[ 2019-10-19T13:17:01+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006524s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.278151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.278596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006473s ]
+
+[ 2019-10-19T13:17:55+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003048s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.272239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.272731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007791s ]
+
+[ 2019-10-19T13:18:55+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003536s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1184s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000475s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007549s ]
+
+[ 2019-10-19T13:19:49+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000558s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.316094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.316658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006227s ]
+
+[ 2019-10-19T13:21:16+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1342s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000491s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000928s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.353027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.354028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005870s ]
+
+[ 2019-10-19T13:22:03+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002803s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1133s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000886s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.466004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.466969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006107s ]
+
+[ 2019-10-19T13:22:22+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000763s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010054s ]
+
+[ 2019-10-19T13:23:25+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005780s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0911s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000892s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.343404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.344109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007466s ]
+
+[ 2019-10-19T13:23:56+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004210s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000479s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000917s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.270720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005207s ]
+
+[ 2019-10-19T13:24:17+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009005s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0544s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000984s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.291831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.292344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006145s ]
+
+[ 2019-10-19T13:25:01+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004930s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1380s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000697s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.563739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.564281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005929s ]
+
+[ 2019-10-19T13:26:02+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005817s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0683s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000536s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.863451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.864110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005881s ]
+
+[ 2019-10-19T13:26:26+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045249s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2783s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000491s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000901s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.542317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.542873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006741s ]
+
+[ 2019-10-19T13:28:07+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003281s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1222s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001023s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.449541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.450064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005583s ]
+
+[ 2019-10-19T13:28:31+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007478s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0629s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000772s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001499s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.823123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.823891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009475s ]
+
+[ 2019-10-19T13:29:24+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003117s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0815s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000821s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.253340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.253825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006755s ]
+
+[ 2019-10-19T13:30:43+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003631s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0587s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000759s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.348613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.349392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005699s ]
+
+[ 2019-10-19T13:33:10+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0566s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000935s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.272051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.272511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006288s ]
+
+[ 2019-10-19T13:34:10+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0563s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007863s ]
+
+[ 2019-10-19T13:35:26+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005076s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000873s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.274172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.274815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005708s ]
+
+[ 2019-10-19T13:36:37+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022677s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1545s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000750s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.328540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.329176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006191s ]
+
+[ 2019-10-19T13:37:13+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0865s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000651s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.272276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.272737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004982s ]
+
+[ 2019-10-19T13:37:42+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004064s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0980s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.009030s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.009988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010596s ]
+
+[ 2019-10-19T13:37:52+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013632s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2278s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001927s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.239618s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.240416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011357s ]
+
+[ 2019-10-19T13:38:09+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008552s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2183s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0225s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.027105s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.027716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013313s ]
+
+[ 2019-10-19T13:38:57+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003585s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0855s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000710s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.272161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.272744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008781s ]
+
+[ 2019-10-19T13:39:42+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000289s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005029s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0692s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001946s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.453958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.454576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006307s ]
+
+[ 2019-10-19T13:39:58+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010970s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0621s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010836s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012633s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.198551s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.200794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009876s ]
+
+[ 2019-10-19T13:40:42+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012989s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.1311s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009952s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.640456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.641057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004269s ]
+
+[ 2019-10-19T13:40:54+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000481s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014364s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0523s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001950s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.745500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.746299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006301s ]
+
+[ 2019-10-19T13:42:13+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003239s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0805s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001839s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.697935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.701389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024397s ]
+
+[ 2019-10-19T13:42:25+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004286s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000745s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005734s ]
+
+[ 2019-10-19T13:42:56+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0606s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000719s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.325486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.325972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007535s ]
+
+[ 2019-10-19T13:46:39+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006086s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0645s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000965s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.181669s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.182342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005919s ]
+
+[ 2019-10-19T13:46:44+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009808s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001913s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.360889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.361465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006933s ]
+
+[ 2019-10-19T13:46:51+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003154s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0933s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000708s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.470794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.471253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005808s ]
+
+[ 2019-10-19T13:49:37+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003102s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000653s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.294898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.295385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009659s ]
+
+[ 2019-10-19T13:49:43+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002961s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2139s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000637s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.389753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.390349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005552s ]
+
+[ 2019-10-19T13:50:05+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000654s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007776s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0815s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008585s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.938742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.939409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007228s ]
+
+[ 2019-10-19T13:57:54+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0711s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001975s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.947793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.948413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006447s ]
+
+[ 2019-10-19T13:58:17+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000283s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009664s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.2018s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001779s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.798418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.799340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.040636s ]
+
+[ 2019-10-19T14:04:12+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007913s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0988s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001823s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.723420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.724168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015089s ]
+
+[ 2019-10-19T14:04:46+08:00 ] ::1 /xunmi/index.php/Home/Question/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003762s ]
+SQL: SHOW COLUMNS FROM `xm_question` [ RunTime:0.0929s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_que` is not null and q_que!=""  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `xm_question` WHERE `q_que` is not null and q_que!=""  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xm_question` WHERE ( user_id ='3' ) AND `q_ans` is not null and q_ans!=""  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000686s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.323965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.324785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006071s ]
+

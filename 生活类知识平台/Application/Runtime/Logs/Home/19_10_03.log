@@ -1,0 +1,25 @@
+[ 2019-10-03T18:11:48+08:00 ] ::1 /xunmi/index.php/Home/Userlogin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:1.756589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.509760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.510197s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.2421s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0644s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 153 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\b5299faaee9c703b824adad03d469372.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.099658s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.100170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.137519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.137974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.184780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.185551s ]
+

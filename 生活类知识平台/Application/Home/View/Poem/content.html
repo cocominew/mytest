@@ -1,0 +1,145 @@
+<!doctype html>
+<html  lang="zh-CN" prefix="og: http://ogp.me/ns#">
+<head>
+<title>诗词  -寻觅,发现生活之美</title>
+<include file="Common:head"/>  
+<style type="text/css">
+input{
+    text-align: center;border: 1px solid;margin: 0px 350px;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px 
+}
+.ci{margin-left: 0px;}
+.ci1{margin-left: 0px;}
+.shi{margin-left: 80px;}
+.shi1{margin-left: 80px;}
+.shi2{margin-left: 80px;}
+.fanyi{font-family: 微软雅黑;width: 600px;}
+.shangxi{font-size: 20px;font-weight: 800;}
+.shiren{margin-left: 250px;}
+@media (max-width:768px){
+    input{ margin: 0 120px;font-size: 18px;}
+    .ci{margin-left: -191px;}
+    .ci1{margin-left: -36px;}
+    .shi{margin-left: -127px;}
+    .shi1{margin-left: 28px;}
+    .shi2{margin-left: 26px;}
+    img{max-width:90%;}
+    .fanyi{width: 440px;margin-left: 22px;}
+    .shiren{margin-left: 177px;}
+}
+@media (min-width:768px) and (max-width:992px){
+    input{ margin: 0 290px;font-size: 20px;}
+    .shangxi{margin-left: 116px;}
+    .fanyi{margin: 0 auto;}
+    .ci {margin-left: -4px;}
+    .shi {margin-left: 70px;}
+}
+</style>
+<script type="text/javascript">
+function qjj(){
+	window.open("__CONTROLLER__/content/id/1/#poem")
+}
+function ls(){
+	window.open("__CONTROLLER__/content/id/2/#poem")
+}
+function yjn(){
+	window.open("__CONTROLLER__/content/id/3/#poem")
+}
+</script>
+<div class="play">
+    <div class="pic">
+        <img src="__PUBLIC__/Home/image/qiangjinjiu.jpg" id="qjj" onclick="qjj()" style="cursor: pointer"/>
+        <img src="__PUBLIC__/Home/image/ls.jpg" id="ls" onclick="ls()" style="cursor: pointer"/>
+        <img src="__PUBLIC__/Home/image/yjn.jpg" id="yjn" onclick="yjn()" style="cursor: pointer"/>
+    </div>
+    <div class="list">
+        <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="jiantou">
+        <span class="glyphicon glyphicon-chevron-left" id="zuo"></span>
+        <span class="glyphicon glyphicon-chevron-right" id=you></span>
+    </div>
+</div>
+<div id="remen" style="margin-top: -50px">
+    <p>诗词
+        <hr />
+    </p>
+</div>
+
+<input type="hidden" class="p" value="{$poems.p_id}"/>
+<div class="main" style="width: 1000px;height: 1500px;margin: 50px auto;max-width:100%">
+    <if condition="$poems['zan'] == 1">
+        <a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;color: red">点赞</a>
+    <else/><a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;">点赞</a>
+    </if>
+    <if condition="$poems['collection'] ==1">
+            <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;color:rgb(250, 247, 81)">收藏</a>
+        <else/>
+        <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;">收藏</a>
+    </if>
+		<?php echo htmlspecialchars_decode($poems['p_content']);?>
+		
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(".zan").click(function () {
+        var id = $(".p").val();
+        console.log(id);
+      
+        $.ajax({
+            url: '{:U("pros")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('点赞成功~'); 
+                     location.reload();
+                } else {
+                    alert("你已经点过赞了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能点赞");
+                console.log(e);
+            }
+        })
+    })
+    $(".collection").click(function () {
+        var id = $(".p").val();
+        console.log(id);
+      
+        $.ajax({
+            url: '{:U("collection")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('收藏成功~'); 
+                     location.reload();
+                } else {
+                    alert("你已经收藏过了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能收藏");
+                console.log(e);
+            }
+        })
+    })
+</script>

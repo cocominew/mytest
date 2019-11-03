@@ -1,0 +1,1481 @@
+[ 2019-09-19T21:30:19+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:5.395108s ]
+INFO: [ view_parse ] --END-- [ RunTime:5.395609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.100806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.101407s ]
+
+[ 2019-09-19T21:30:23+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000765s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.322616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.323288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003270s ]
+
+[ 2019-09-19T21:30:25+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000269s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003022s ]
+
+[ 2019-09-19T21:30:55+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000329s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008449s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.1740s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'wang' AND `user_password` = '2' LIMIT 1   [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000570s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003542s ]
+
+[ 2019-09-19T21:30:58+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005632s ]
+
+[ 2019-09-19T21:31:04+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005079s ]
+
+[ 2019-09-19T21:31:07+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005402s ]
+
+[ 2019-09-19T21:31:07+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006320s ]
+
+[ 2019-09-19T21:31:09+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify/0.479125039026828
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005252s ]
+
+[ 2019-09-19T21:31:21+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006521s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.0985s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'wang' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000786s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002728s ]
+
+[ 2019-09-19T21:31:24+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000791s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003640s ]
+
+[ 2019-09-19T21:31:25+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005784s ]
+
+[ 2019-09-19T21:32:12+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000392s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005846s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.0643s ]
+SQL: SELECT * FROM `xm_admin` WHERE `user_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2019-09-19T21:32:12+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.248028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003755s ]
+
+[ 2019-09-19T21:32:18+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008695s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0942s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022113s ]
+
+[ 2019-09-19T21:32:22+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.243122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.243532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012804s ]
+
+[ 2019-09-19T21:34:46+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007829s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1008s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot; style=&quot;text-align: center;border: 1px solid;margin: 0px 320px;;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px &quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;margin-top:40px&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; hidden-xs hidden-sm&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.1877s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000454s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004832s ]
+
+[ 2019-09-19T21:34:48+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003657s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.2259s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024110s ]
+
+[ 2019-09-19T21:35:25+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006935s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0748s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000890s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021606s ]
+
+[ 2019-09-19T21:36:15+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004579s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0817s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot; style=&quot;text-align: center;border: 1px solid;margin: 0px 320px;;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px &quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;margin-top:40px&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; &quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.0505s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006397s ]
+
+[ 2019-09-19T21:36:16+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006625s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0721s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000670s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017734s ]
+
+[ 2019-09-19T21:39:25+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001246s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021378s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0839s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000598s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016457s ]
+
+[ 2019-09-19T21:43:02+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010411s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1371s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot; style=&quot;text-align: center;border: 1px solid;margin: 0px 320px;;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px @media (max-width:768px){margin: 0px 120px;font-size: 18px;}&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;margin-top:40px&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; &quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.0472s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006813s ]
+
+[ 2019-09-19T21:43:03+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005708s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0863s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000626s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026512s ]
+
+[ 2019-09-19T21:43:32+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008119s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0864s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000602s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009349s ]
+
+[ 2019-09-19T21:43:44+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005042s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1052s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot; style=&quot;text-align: center;border: 1px solid;margin: 0px 320px;;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px; @media (max-width:768px){margin: 0px 120px;font-size: 18px;}&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;margin-top:40px&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; &quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.0526s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008874s ]
+
+[ 2019-09-19T21:43:45+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007732s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0913s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000549s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009616s ]
+
+[ 2019-09-19T21:44:22+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009053s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1038s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000594s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006410s ]
+
+[ 2019-09-19T21:45:42+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003843s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0912s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot; style=&quot;text-align: center;border: 1px solid;margin: 0px 320px;;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px; @media (max-width:768px){input{margin: 0px 120px;font-size: 18px;}}&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;margin-top:40px&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; &quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.2458s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000744s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003681s ]
+
+[ 2019-09-19T21:45:43+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004884s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000668s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001541s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016712s ]
+
+[ 2019-09-19T22:07:15+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003285s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.260544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.261067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006524s ]
+
+[ 2019-09-19T22:07:31+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010100s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1221s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot; style=&quot;text-align: center;border: 1px solid;margin: 0px 320px;;border-radius:25px;color: rgb(243, 117, 27);font-size: 25px; &quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;margin-top:40px&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; &quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.0553s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000572s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009128s ]
+
+[ 2019-09-19T22:07:32+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003990s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004503s ]
+
+[ 2019-09-19T22:15:01+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000760s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004054s ]
+
+[ 2019-09-19T22:15:14+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002832s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0344s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;margin-top:40px&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; &quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.0522s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.323676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.324419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009285s ]
+
+[ 2019-09-19T22:15:16+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010228s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0940s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000775s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.238920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019046s ]
+
+[ 2019-09-19T22:16:41+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016539s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004615s ]
+
+[ 2019-09-19T22:17:40+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000284s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007853s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1103s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;margin-top:40px;max-width:100%&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;max-width:100%&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 360px;max-width:100%&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; &quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.0581s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003444s ]
+
+[ 2019-09-19T22:17:41+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006942s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1112s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009261s ]
+
+[ 2019-09-19T22:20:34+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008785s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1503s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 1 LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000784s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020806s ]
+
+[ 2019-09-19T22:24:37+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005983s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0956s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 红烧肉的做法',`f_author`='露露',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px;&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①五花肉洗净切方块，姜切片，焯肉，锅中倒入适量的清水，冷水下锅，加入五花肉和适量料酒。&lt;/span&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565735994894.jpg&quot; width=&quot;600px&quot; title=&quot;1566565735994894.jpg&quot; alt=&quot;rou.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②大火煮开后撇去浮沫，捞出备用，将炒锅微微烧热，倒入适量食用油，加入冰糖，小火煸炒至冰糖全部融化，从锅底开始向上冒黄色小炮时即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565825719405.jpg&quot; width=&quot;600px&quot; title=&quot;1566565825719405.jpg&quot; alt=&quot;rou2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③将五花肉倒入锅内转中火，快速翻炒，裹上糖色后放入姜片继续翻炒。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566565883831546.jpg&quot; width=&quot;600&quot; title=&quot;1566565883831546.jpg&quot; alt=&quot;1566565883831546.jpg&quot; border=&quot;0&quot; vspace=&quot;0&quot; style=&quot;width: 600px;&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute; &quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;红烧肉&lt;/span&gt;&lt;/p&gt;&lt;p&gt;红烧肉是一道著名的大众菜肴，属于热菜。其以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做，做法多达二三十种。 红烧肉的烹饪技巧，锅具以砂锅为主，做出来的肉肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，具有一定的营养价值&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 1 [ RunTime:0.1071s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.991011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.991820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006012s ]
+
+[ 2019-09-19T22:24:38+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003869s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000910s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005712s ]
+
+[ 2019-09-19T22:35:36+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013636s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1004s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 2 LIMIT 1   [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004681s ]
+
+[ 2019-09-19T22:36:56+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005846s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0414s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 可乐鸡翅的做法',`f_author`='丹丹',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①在鸡翅上划一刀，在碗中放入切好的葱姜、料酒、酱油、盐，用手抓匀，腌制20-30分钟。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566547147422615.jpg&quot; width=&quot;600px&quot; title=&quot;1566547147422615.jpg&quot; alt=&quot;jichi1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②热锅&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;倒油，放入鸡翅，开小火煎至两面金黄，倒入适量酱油。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566547163756111.jpg&quot; width=&quot;600px&quot; title=&quot;1566547163756111.jpg&quot; alt=&quot;jichi2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③锅中倒入可乐，与鸡翅持平即可，开中火焖至汤汁变浓，转小火收汁出锅装盘即可。 &lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566547181830040.jpg&quot; width=&quot;600px&quot; title=&quot;1566547181830040.jpg&quot; alt=&quot;jichi3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;可乐鸡翅&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; color: #000000; font-family: sans-serif; font-size: 16px;               &quot;&gt;可乐鸡翅是一道以鸡翅和可乐为主料，以料酒、葱、姜、酱油、盐、鸡精作为调料制作而成的美食。制作原料使用鸡翅中为佳。可乐鸡翅具有味道鲜美、色泽艳丽、鸡肉嫩滑、咸甜适中的特点。一般人群均可食用。不适合感冒发热、内火偏旺、痰湿偏重之人；患有热毒疖肿、高血压、血脂偏高、胆囊炎、胆石症患者忌食。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 2 [ RunTime:0.0551s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003543s ]
+
+[ 2019-09-19T22:36:58+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002918s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000790s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003043s ]
+
+[ 2019-09-19T22:38:22+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008439s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0991s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 3 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000565s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020761s ]
+
+[ 2019-09-19T22:39:18+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009604s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0889s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 小龙虾的做法',`f_author`='旭旭',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①沿着龙虾头和身体交界处的斜线剪去虾头，挑出虾脑，剪去虾脚，去除虾线，清理完成后将小龙虾清洗干净。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566340109683.jpg&quot; width=&quot;600px&quot; title=&quot;1566566340109683.jpg&quot; alt=&quot;xlx1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②准备葱、姜、蒜、油、啤酒、火锅底料，先用油炸一下小龙虾，一到两分钟后捞出。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566388429242.jpg&quot; width=&quot;600px&quot; title=&quot;1566566388429242.jpg&quot; alt=&quot;xlx2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③锅中放油加入葱姜蒜爆香，加入火锅底料、啤酒，大火煮开后倒入龙虾，按照自己的口味放入调料，煮至汤汁浓稠麻辣小龙虾就做好啦。 &lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566447438450.jpg&quot; width=&quot;600px&quot; title=&quot;1566566447438450.jpg&quot; alt=&quot;xlx3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;小龙虾&lt;/span&gt;&lt;/p&gt;&lt;p&gt;小龙虾体内的蛋白质含量很高，且肉质松软，易消化，对身体虚弱以及病后需要调养的人是极好的食物；虾肉内还富含镁、锌、碘、硒等，镁对心脏活动具有重要的调节作用，能保护心血管系统，它可减少血液中胆固醇含量，防止动脉硬化，同时还能扩张冠状动脉，有利于预防高血压及心肌梗塞。小龙虾含有虾青素，虾青素是一种很强的抗氧化剂，日本大阪大学的科学家发现，虾青素有助消除因时差反应而产生的时差症。另外，小龙虾还可入药，能化痰止咳，促进手术后的伤口生肌愈合。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 3 [ RunTime:0.0730s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006876s ]
+
+[ 2019-09-19T22:39:19+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005256s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004068s ]
+
+[ 2019-09-19T22:42:22+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004939s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 3 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000987s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004945s ]
+
+[ 2019-09-19T22:43:07+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008395s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0848s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 小龙虾的做法',`f_author`='旭旭',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;①沿着龙虾头和身体交界处的斜线剪去虾头，挑出虾脑，剪去虾脚，去除虾线，清理完成后将小龙虾清洗干净。&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566340109683.jpg&quot; width=&quot;600px&quot; title=&quot;1566566340109683.jpg&quot; alt=&quot;xlx1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;②准备葱、姜、蒜、油、啤酒、火锅底料，先用油炸一下小龙虾，一到两分钟后捞出。 &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566388429242.jpg&quot; width=&quot;600px&quot; title=&quot;1566566388429242.jpg&quot; alt=&quot;xlx2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;③锅中放油加入葱姜蒜爆香，加入火锅底料、啤酒，大火煮开后倒入龙虾，按照自己的口味放入调料，煮至汤汁浓稠麻辣小龙虾就做好啦。 &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566447438450.jpg&quot; width=&quot;600px&quot; title=&quot;1566566447438450.jpg&quot; alt=&quot;xlx3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;小龙虾&lt;/span&gt;&lt;/p&gt;&lt;p&gt;小龙虾体内的蛋白质含量很高，且肉质松软，易消化，对身体虚弱以及病后需要调养的人是极好的食物；虾肉内还富含镁、锌、碘、硒等，镁对心脏活动具有重要的调节作用，能保护心血管系统，它可减少血液中胆固醇含量，防止动脉硬化，同时还能扩张冠状动脉，有利于预防高血压及心肌梗塞。小龙虾含有虾青素，虾青素是一种很强的抗氧化剂，日本大阪大学的科学家发现，虾青素有助消除因时差反应而产生的时差症。另外，小龙虾还可入药，能化痰止咳，促进手术后的伤口生肌愈合。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 3 [ RunTime:0.0548s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006387s ]
+
+[ 2019-09-19T22:43:09+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011511s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0975s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020327s ]
+
+[ 2019-09-19T22:44:17+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022089s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1218s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 3 LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000734s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009129s ]
+
+[ 2019-09-19T22:44:53+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005301s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000894s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004380s ]
+
+[ 2019-09-19T22:45:09+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009553s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1223s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000991s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007548s ]
+
+[ 2019-09-19T22:45:11+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007556s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1058s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 2 LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000764s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016538s ]
+
+[ 2019-09-19T22:45:32+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010002s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1298s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013948s ]
+
+[ 2019-09-19T22:45:34+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010360s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 3 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004270s ]
+
+[ 2019-09-19T22:46:32+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004176s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0734s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 小龙虾的做法',`f_author`='旭旭',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;①沿着龙虾头和身体交界处的斜线剪去虾头，挑出虾脑，剪去虾脚，去除虾线，清理完成后将小龙虾清洗干净。&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566340109683.jpg&quot; width=&quot;600px&quot; title=&quot;1566566340109683.jpg&quot; alt=&quot;xlx1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;②准备葱、姜、蒜、油、啤酒、火锅底料，先用油炸一下小龙虾，一到两分钟后捞出。 &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566388429242.jpg&quot; width=&quot;600px&quot; title=&quot;1566566388429242.jpg&quot; alt=&quot;xlx2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;③锅中放油加入葱姜蒜爆香，加入火锅底料、啤酒，大火煮开后倒入龙虾，按照自己的口味放入调料，煮至汤汁浓稠麻辣小龙虾就做好啦。 &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566447438450.jpg&quot; width=&quot;600px&quot; title=&quot;1566566447438450.jpg&quot; alt=&quot;xlx3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;小龙虾&lt;/span&gt;&lt;/p&gt;&lt;p&gt;小龙虾体内的蛋白质含量很高，且肉质松软，易消化，对身体虚弱以及病后需要调养的人是极好的食物；虾肉内还富含镁、锌、碘、硒等，镁对心脏活动具有重要的调节作用，能保护心血管系统，它可减少血液中胆固醇含量，防止动脉硬化，同时还能扩张冠状动脉，有利于预防高血压及心肌梗塞。小龙虾含有虾青素，虾青素是一种很强的抗氧化剂，日本大阪大学的科学家发现，虾青素有助消除因时差反应而产生的时差症。另外，小龙虾还可入药，能化痰止咳，促进手术后的伤口生肌愈合。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 3 [ RunTime:0.0618s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000746s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004667s ]
+
+[ 2019-09-19T22:46:33+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004130s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004759s ]
+
+[ 2019-09-19T22:47:32+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005434s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000731s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003726s ]
+
+[ 2019-09-19T22:47:54+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008107s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1109s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000610s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010066s ]
+
+[ 2019-09-19T22:47:57+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001373s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013563s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1679s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 2 LIMIT 1   [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000641s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015788s ]
+
+[ 2019-09-19T22:48:23+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008439s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1029s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000639s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027680s ]
+
+[ 2019-09-19T22:48:27+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004081s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0467s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 3 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000933s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005136s ]
+
+[ 2019-09-19T22:49:17+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009629s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0968s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 小龙虾的做法',`f_author`='旭旭',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①沿着龙虾头和身体交界处的斜线剪去虾头，挑出虾脑，剪去虾脚，去除虾线，清理完成后将小龙虾清洗干净。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566340109683.jpg&quot; width=&quot;600px&quot; title=&quot;1566566340109683.jpg&quot; alt=&quot;xlx1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②准备葱、姜、蒜、油、啤酒、火锅底料，先用油炸一下小龙虾，一到两分钟后捞出。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566388429242.jpg&quot; width=&quot;600px&quot; title=&quot;1566566388429242.jpg&quot; alt=&quot;xlx2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;③锅中放油加入葱姜蒜爆香，加入火锅底料、啤酒，大火煮开后倒入龙虾，按照自己的口味放入调料，煮至汤汁浓稠麻辣小龙虾就做好啦。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566447438450.jpg&quot; width=&quot;600px&quot; title=&quot;1566566447438450.jpg&quot; alt=&quot;xlx3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;小龙虾&lt;/span&gt;&lt;/p&gt;&lt;p&gt;小龙虾体内的蛋白质含量很高，且肉质松软，易消化，对身体虚弱以及病后需要调养的人是极好的食物；虾肉内还富含镁、锌、碘、硒等，镁对心脏活动具有重要的调节作用，能保护心血管系统，它可减少血液中胆固醇含量，防止动脉硬化，同时还能扩张冠状动脉，有利于预防高血压及心肌梗塞。小龙虾含有虾青素，虾青素是一种很强的抗氧化剂，日本大阪大学的科学家发现，虾青素有助消除因时差反应而产生的时差症。另外，小龙虾还可入药，能化痰止咳，促进手术后的伤口生肌愈合。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 3 [ RunTime:0.0657s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010772s ]
+
+[ 2019-09-19T22:49:18+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008222s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0904s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000538s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2019-09-19T22:49:32+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000284s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008923s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1122s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 4 LIMIT 1   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000614s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025046s ]
+
+[ 2019-09-19T22:50:27+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003693s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0419s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_food` SET `f_title`='■ 酸菜鱼的做法',`f_author`='阿猫',`f_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①鱼肉里加入少许盐、胡椒粉、生粉，用手抓匀。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566651656277.jpg&quot; width=&quot;600px&quot; title=&quot;1566566651656277.jpg&quot; alt=&quot;yu1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;②锅里倒油，爆香蒜片和姜末，倒入酸菜，加入适量的水，把鱼肉一起下汤里煮。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566668127550.jpg&quot; width=&quot;600px&quot; title=&quot;1566566668127550.jpg&quot; alt=&quot;yu2.jpg&quot; style=&quot;font-size: 18px;&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;③煮好后捞出备用，锅内倒油，炸香花椒和干辣椒，淋到鱼肉上，撒上香菜即可。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566566697138730.jpg&quot; width=&quot;600px&quot; title=&quot;1566566697138730.jpg&quot; alt=&quot;yu3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;酸菜鱼&lt;/span&gt;&lt;/p&gt;&lt;p&gt;酸菜鱼也称为酸汤鱼，是一道源自重庆的经典菜品，以其特有的调味和独特的烹调技法而著称。流行于上世纪90年代，是重庆江湖菜的开路先锋之一。 酸菜鱼以草鱼为主料，配以泡菜等食材煮制而成，口味酸辣可口；鱼含丰富优质蛋白，能提供人丰富的蛋白质、矿物质等营养；酸菜中的乳酸可以促进人体对铁元素的吸收，还可以增加人的食欲。 关于酸菜鱼的历史来源众说纷纭，至今也无法考证，后经传承，制作方法现在也各有不同，但口味基本一致。&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; color: #000000; font-family: sans-serif; font-size: 16px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`f_fabu`='家常菜谱' WHERE `f_id` = 4 [ RunTime:0.0604s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\FoodController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003824s ]
+
+[ 2019-09-19T22:50:28+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003659s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000728s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004257s ]
+

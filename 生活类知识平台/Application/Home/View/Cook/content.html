@@ -1,0 +1,145 @@
+<!doctype html>
+<html  lang="zh-CN" prefix="og: http://ogp.me/ns#">
+<head>
+<title>家常菜谱  -寻觅,发现生活之美</title>
+
+<include file="Common:head"/> 
+<style type="text/css">
+    input{text-align: center;
+    border: 1px solid;
+    margin: 0px 320px;
+    border-radius: 25px;
+    color: rgb(243, 117, 27);
+    font-size: 25px;}
+    .zuofa{
+        margin-left: 360px;
+    }
+        @media (max-width:768px){
+             input{
+                margin: 0 120px;
+                font-size: 18px;
+            }
+            .zuofa{margin-left: 0px;}
+            img{
+                max-width:90%;
+                margin-left: 22px
+            }
+        }
+        @media (min-width:768px) and (max-width:992px){
+            input{
+                margin: 0 290px;
+            }
+            .zuofa{margin-left: 70px;}
+        }
+        </style> 
+<script type="text/javascript">
+function hsr(){
+	window.open("__CONTROLLER__/content/id/1/#cook")
+}
+function kljc(){
+	window.open("__CONTROLLER__/content/id/2#cook")
+}
+function xlx(){
+	window.open("__CONTROLLER__/content/id/3#cook")
+}
+</script>
+
+<div class="play">
+    <div class="pic">
+        <img src="__PUBLIC__/Home/image/红烧肉.jpg" id="hsr" onclick="hsr()" style="cursor: pointer"/>
+        <img src="__PUBLIC__/Home/image/可乐鸡翅.jpg" id="kljc" onclick="kljc()" style="cursor: pointer"/>
+        <img src="__PUBLIC__/Home/image/小龙虾.jpg" id="xlx" onclick="xlx()" style="cursor: pointer"/>
+    </div>
+    <div class="list">
+        <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="jiantou">
+        <span class="glyphicon glyphicon-chevron-left" id="zuo"></span>
+        <span class="glyphicon glyphicon-chevron-right" id=you></span>
+    </div>
+</div>
+<div id="remen" style="margin-top: -50px">
+        <p>家常菜谱
+            <hr />
+        </p>
+    </div>
+
+    <input type="hidden" class="f" value="{$foods.f_id}"/>
+<div class="main" style="width: 1000px;height: 1500px;margin: 0px auto;max-width:100%">
+    <if condition="$foods['zan'] == 1">
+        <a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;color: red">点赞</a>
+    <else/><a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;">点赞</a>
+    </if>
+    <if condition="$foods['collection'] ==1">
+            <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;color:rgb(250, 247, 81)">收藏</a>
+        <else/>
+        <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;">收藏</a>
+    </if>
+		<?php echo htmlspecialchars_decode($foods['f_content']);?>
+		
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(".zan").click(function () {
+        var id = $(".f").val();
+        console.log(id);
+       
+        $.ajax({
+            url: '{:U("pros")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('点赞成功~');
+                     location.reload();
+                } else {
+                    alert("你已经点过赞了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能点赞");
+                console.log(e);
+            }
+        })
+    })
+    $(".collection").click(function () {
+        var id = $(".f").val();
+        console.log(id);
+      
+        $.ajax({
+            url: '{:U("collection")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('收藏成功~'); 
+                     location.reload();
+                } else {
+                    alert("你已经收藏过了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能收藏");
+                console.log(e);
+            }
+        })
+    })
+</script>

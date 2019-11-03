@@ -1,0 +1,135 @@
+<!doctype html>
+<html  lang="zh-CN" prefix="og: http://ogp.me/ns#">
+<head>
+<title>旅游出行  -寻觅,发现生活之美</title>
+<include file="Common:head"/>  
+<script type="text/javascript">
+function yn(){
+	window.open("__CONTROLLER__/content/id/1/#trivial")
+}
+function xm(){
+	window.open("__CONTROLLER__/content/id/2/#trivial")
+}
+function sy(){
+	window.open("__CONTROLLER__/content/id/3/#trivial")
+}
+$(document).ready(function(){
+        $("#menpiao").mouseover(function(){
+            $(".mp").show();
+        })
+        $("#menpiao").mouseout(function(){
+            $(".mp").hide();
+        })
+    })
+</script>
+<div class="play">
+    <div class="pic">
+         <img src="__PUBLIC__/Home/image/yn.jpg" id="yn" onclick="yn()" style="cursor: pointer"/>
+        <img src="__PUBLIC__/Home/image/xm.jpg" id="xm" onclick="xm()" style="cursor: pointer"/>
+        <img src="__PUBLIC__/Home/image/sy.jpg" id="sy" onclick="sy()" style="cursor: pointer"/>
+    </div>
+    <div class="list">
+        <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="jiantou">
+        <span class="glyphicon glyphicon-chevron-left" id="zuo"></span>
+        <span class="glyphicon glyphicon-chevron-right" id=you></span>
+    </div>
+</div>
+<div id="remen" style="margin-top: -50px">
+    <p>旅游出行
+        <hr />
+    </p>
+</div>
+<input type="hidden" class="t" value="{$trivials.t_id}"/>
+
+<if condition="$trivials['t_id']==2 ||$trivials['t_id']==4 ">
+<div class="main" style="width: 800px;height: 1500px;margin-left: 130px;margin-top: 50px;max-width: 100%">
+    <if condition="$trivials['zan'] == 1">
+        <a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;color: red;margin-bottom: 20px;">点赞</a>
+    <else/><a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;margin-bottom: 20px;">点赞</a>
+    </if>
+    <if condition="$trivials['collection'] ==1">
+            <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;color:rgb(250, 247, 81)">收藏</a>
+        <else/>
+        <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;">收藏</a>
+    </if>
+		<?php echo htmlspecialchars_decode($trivials['t_content']);?>
+		
+</div><else/>
+<div class="main" style="width: 600px;height: 1500px;margin: 50px auto;max-width: 100%">
+    <if condition="$trivials['zan'] == 1">
+        <a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;color: red">点赞</a>
+    <else/><a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;">点赞</a>
+    </if>
+    <if condition="$trivials['collection'] ==1">
+            <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;color:rgb(250, 247, 81)">收藏</a>
+        <else/>
+        <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;">收藏</a>
+    </if>
+		<?php echo htmlspecialchars_decode($trivials['t_content']);?>
+</if>
+</body>
+</html>
+<script type="text/javascript">
+    $(".zan").click(function () {
+        var id = $(".t").val();
+        console.log(id);
+
+        $.ajax({
+            url: '{:U("pros")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('点赞成功~'); 
+                    location.reload();
+                } else {
+                    alert("你已经点过赞了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能点赞");
+                console.log(e);
+            }
+        })
+    })
+    $(".collection").click(function () {
+        var id = $(".t").val();
+        console.log(id);
+      
+        $.ajax({
+            url: '{:U("collection")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('收藏成功~'); 
+                     location.reload();
+                } else {
+                    alert("你已经收藏过了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能收藏");
+                console.log(e);
+            }
+        })
+    })
+</script>

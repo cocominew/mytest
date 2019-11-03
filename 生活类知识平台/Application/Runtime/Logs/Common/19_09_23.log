@@ -1,0 +1,12 @@
+[ 2019-09-23T01:52:37+08:00 ] ::1 /xunmi/index.php/Index/index/id.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007932s ]
+ERR: 无法加载模块:Index
+
+[ 2019-09-23T02:12:25+08:00 ] ::1 /xunmi/index.php/Index/index/id/%7B$vo.h_id%7D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002662s ]
+ERR: 无法加载模块:Index
+

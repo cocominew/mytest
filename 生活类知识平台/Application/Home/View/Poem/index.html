@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta content="text/html" http-equiv="Content-Type" charset="UTF-8" />
+    <title>诗词 -寻觅,发现生活之美</title>
+
+    <include file="Common:head" />
+    <style type="text/css">
+        .active{background: #c6f3b0;transform: matrix(2, 0, 0, 0.7, 0, 0);}
+        </style>
+    <script type="text/javascript">
+        function qjj() {
+            window.open("__CONTROLLER__/content/id/1/#poem")
+        }
+
+        function ls() {
+            window.open("__CONTROLLER__/content/id/2/#poem")
+        }
+
+        function yjn() {
+            window.open("__CONTROLLER__/content/id/3/#poem")
+        }
+    </script>
+    <div class="play">
+        <div class="pic">
+            <img src="__PUBLIC__/Home/image/qiangjinjiu.jpg" id="qjj" onclick="qjj()" style="cursor: pointer" />
+            <img src="__PUBLIC__/Home/image/ls.jpg" id="ls" onclick="ls()" style="cursor: pointer" />
+            <img src="__PUBLIC__/Home/image/yjn.jpg" id="yjn" onclick="yjn()" style="cursor: pointer" />
+        </div>
+        <div class="list">
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="jiantou">
+            <span class="glyphicon glyphicon-chevron-left" id="zuo"></span>
+            <span class="glyphicon glyphicon-chevron-right" id=you></span>
+        </div>
+    </div>
+
+    <div id="remen" style="margin-top: -50px">
+        <p>诗词
+            <hr />
+        </p>
+    </div>
+    <section id="hothot" style="position: relative">
+        <div class="container">
+            <div class="row">
+                <volist name="list" id="vo">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="panel-body">
+                            <div class="p">
+                                <div class="photo" style="height:235px;">
+                                    <a href="__CONTROLLER__/content/id/{$vo.p_id}/#poem" target="_blank" class="a">
+                                        <if condition="$vo['p_pic'] neq null"><img src="__ROOT__/{$vo.p_pic}"
+                                                height="235px" style="cursor: pointer">
+                                            <else /><img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" />
+                                        </if>
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <div class="t">{$vo.p_title}</div>
+                                    <div class="d">
+                                        <div class="d1"><a class="glyphicon glyphicon-thumbs-up" style="text-decoration: none"
+                                               ></a><span>{$vo.p_zan}</span></div>
+                                        <div class="d2"><i class="glyphicon glyphicon-star-empty" style="text-decoration: none"></i><span>{$vo.p_collection}</span></div>
+                                    </div>
+                                    <div class="author">
+                                        <img width="24" height="24" src="__ROOT__{$vo.p_tou}">
+                                        <p style="color: #444;">{$vo.p_author}<br><span>发布到 {$vo.p_fabu}</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </volist>
+
+            </div>
+        </div>
+    </section>
+    </body>
+
+</html>

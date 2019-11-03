@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <include file="Common:head"/>
+	<include file="Common:left"/>
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Festival/lst">节日习俗栏</a><span class="crumb-step">&gt;</span><span>修改作品</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="" method="post" id="myform" name="myform" enctype="multipart/form-data">
+				<input type="hidden" name="f_id" value="{$festivals.f_id}"/>
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>标题：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="title" size="50" value="{$festivals.f_title}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>作者：</th>
+                                <td><input class="common-text" name="author" size="50" value="{$festivals.f_author}" type="text">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="require-red">*</i>头像：
+								<input name="tou" id="" type="file" value="上传头像"><if condition="$festivals['f_tou'] neq null">
+							<img src="__ROOT__{$festivals.f_tou}" height="30"/>
+							<else/>
+							无头像
+							</if>
+								</td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>缩略图：</th>
+                                <td><input name="img" id="" type="file">
+                             <if condition="$festivals['f_pic'] neq null">
+							<img src="__ROOT__{$festivals.f_pic}" height="30"/>
+							<else/>
+							暂无图片
+							</if></td>
+							</tr>
+                            <tr>
+                                <th>内容：</th>
+                                <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10">{$festivals.f_content}</textarea></td>
+                            </tr>
+							<tr>
+                                <th>发布到：</th>
+								<td>
+								<select name="fb" id="fb">
+								<option value="节日习俗">节日习俗</option>
+								<option value="家常菜谱">家常菜谱</option>
+								<option value="旅游出行">旅游出行</option>
+								<option value="生活百科">生活百科</option>
+								<option value="诗词">诗词</option>
+								<option>娱乐</option>
+								</select>
+								</td>
+							</tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>
+<script src="__PUBLIC__/Home/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#fb option[value='{$festivals.f_fabu}']").attr("selected",true);
+	})
+</script>
+<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+	
+<script type="text/javascript">
+    // 实例化
+    UE.getEditor('content',{initialFrameWidth:1000,initialFrameHeight:350,});
+</script>

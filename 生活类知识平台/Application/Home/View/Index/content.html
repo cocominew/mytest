@@ -1,0 +1,148 @@
+<!doctype html>
+<html  lang="zh-CN" >
+<head>
+<title>热门推荐  -寻觅,发现生活之美</title>
+<include file="Common:head"/>  
+<style type="text/css">
+    input{text-align: center;
+    border: 1px solid;
+    margin: 0px 320px;
+    border-radius: 25px;
+    color: rgb(243, 117, 27);
+    font-size: 25px;}
+    .zuofa{
+        margin-left: 360px;
+    }
+    .ci{margin-left: 0px;}
+    .ci1{margin-left: 0px;}
+    .shi{margin-left: 80px;}
+    .shi1{margin-left: 80px;}
+    .shi2{margin-left: 80px;}
+    .fanyi{font-family: 微软雅黑;width: 600px;}
+    .shangxi{font-size: 20px;font-weight: 800;}
+    .shiren{margin-left: 250px;}
+        @media (max-width:768px){
+             input{
+                margin: 0 120px;
+                font-size: 18px;
+            }
+            .zuofa{margin-left: 0px;}
+            img{
+                max-width:90%;
+                margin-left: 22px
+            }
+            .ci{margin-left: -191px;}
+            .ci1{margin-left: -36px;}
+            .shi{margin-left: -127px;}
+            .shi1{margin-left: 28px;}
+            .shi2{margin-left: 26px;}
+            img{max-width:90%;}
+            .fanyi{width: 440px;margin-left: 22px;}
+            .shiren{margin-left: 177px;}
+        }
+        @media (min-width:768px) and (max-width:992px){
+            input{
+                margin: 0 290px;
+            }
+            .zuofa{margin-left: 70px;}
+            .shangxi{margin-left: 116px;}
+            .fanyi{margin: 0 auto;}
+            .ci {margin-left: -4px;}
+            .shi {margin-left: 70px;}
+        }
+        </style> 
+<div id="remen">
+        <p>热门推荐
+            <hr />
+        </p>
+    </div>
+    <input type="hidden" class="h" value="{$hots.h_id}"/>
+<if condition="$hots['h_id'] == 5 ||$hots['h_id'] == 8||$hots['h_id'] == 11">
+<div class="main" style="width: 1000px;height: 1500px;margin: 50px auto;max-width: 100%">
+		 <if condition="$hots['zan'] == 1 ">
+            <a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;color: red">点赞</a>
+        <else/><a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;">点赞</a>
+        </if>
+        <if condition="$hots['collection'] ==1">
+                <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;color:rgb(250, 247, 81)">收藏</a>
+            <else/>
+            <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;">收藏</a>
+        </if>
+        <?php echo htmlspecialchars_decode($hots['h_content']);?>  
+		
+</div><else/>
+<div class="main" style="width: 600px;height: 1500px;margin: 50px auto;max-width: 100%">
+		 <if condition="$hots['zan'] == 1 ">
+        <a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;color: red;">点赞</a>
+    <else/><a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;">点赞</a>
+    </if>
+    <if condition="$hots['collection'] ==1">
+            <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;color:rgb(250, 247, 81)">收藏</a>
+        <else/>
+        <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;">收藏</a>
+    </if>
+        <?php echo htmlspecialchars_decode($hots['h_content']);?>
+       
+</div></if>
+</body>
+</html>
+<script type="text/javascript">
+    $(".zan").click(function () {
+        var id = $(".h").val();
+        console.log(id);
+       
+        $.ajax({
+            url: '{:U("pros")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('点赞成功~');
+                     location.reload();
+                } else {
+                    alert("你已经点过赞了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能点赞");
+                console.log(e);
+            }
+        })
+    })
+   
+
+    $(".collection").click(function () {
+        var id = $(".h").val();
+        console.log(id);
+      
+        $.ajax({
+            url: '{:U("collection")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('收藏成功~'); 
+                     location.reload();
+                } else {
+                    alert("你已经收藏过了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能收藏");
+                console.log(e);
+            }
+        })
+    })
+</script>

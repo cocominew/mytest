@@ -1,0 +1,2406 @@
+[ 2019-09-18T20:37:03+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.176227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.124975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.125755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.027984s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.028738s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.713866s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.714688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.088200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.089086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.157729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.158530s ]
+
+[ 2019-09-18T20:37:24+08:00 ] ::1 /xunmi/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:1.2504s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.3867s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000462s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 199 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.901463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.901984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006532s ]
+
+[ 2019-09-18T20:56:35+08:00 ] ::1 /xunmi/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016921s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1628s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000979s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.429151s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.429626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006705s ]
+
+[ 2019-09-18T20:59:32+08:00 ] ::1 /xunmi/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004389s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0623s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000711s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001429s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.347531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.347961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008267s ]
+
+[ 2019-09-18T21:00:57+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003635s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 8,8   [ RunTime:0.1169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000564s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.284606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015502s ]
+
+[ 2019-09-18T21:00:59+08:00 ] ::1 /xunmi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005232s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000988s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.334353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.334809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005431s ]
+
+[ 2019-09-18T21:01:30+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0605s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 8,8   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000533s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.372761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008887s ]
+
+[ 2019-09-18T21:01:31+08:00 ] ::1 /xunmi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003903s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000878s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001640s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.496488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.497264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005516s ]
+
+[ 2019-09-18T21:02:01+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011571s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 8,8   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000554s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.588325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.589233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015156s ]
+
+[ 2019-09-18T21:02:02+08:00 ] ::1 /xunmi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012575s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000553s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.546497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.548153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008421s ]
+
+[ 2019-09-18T21:02:06+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004161s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0658s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.291323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.291799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008819s ]
+
+[ 2019-09-18T21:02:40+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003863s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000756s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001848s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.349132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.349914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007766s ]
+
+[ 2019-09-18T21:02:54+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003544s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0589s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001241s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.384447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.385131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010436s ]
+
+[ 2019-09-18T21:02:55+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003897s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0601s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.265958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005709s ]
+
+[ 2019-09-18T21:03:09+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002967s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0519s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001046s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 365 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.352745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.353191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008175s ]
+
+[ 2019-09-18T21:03:43+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003295s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000555s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000989s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 365 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.374603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.375410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011543s ]
+
+[ 2019-09-18T21:04:13+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005237s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0487s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000519s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.332479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.332914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009296s ]
+
+[ 2019-09-18T21:04:16+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003338s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000743s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001319s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.362894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.363500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005934s ]
+
+[ 2019-09-18T21:05:38+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0825s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000824s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001653s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.521977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.522711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008443s ]
+
+[ 2019-09-18T21:06:02+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003046s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0486s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000811s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001312s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.373609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009173s ]
+
+[ 2019-09-18T21:09:13+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003832s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0873s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000533s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 365 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.358268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.358693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005189s ]
+
+[ 2019-09-18T21:10:25+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006748s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000564s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 179 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 365 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.331214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.331655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010578s ]
+
+[ 2019-09-18T21:14:26+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004647s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0819s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000612s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.660959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.661440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007714s ]
+
+[ 2019-09-18T21:15:08+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003053s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0845s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000822s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001535s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.325402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009652s ]
+
+[ 2019-09-18T21:15:25+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004914s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000572s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.349708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007134s ]
+
+[ 2019-09-18T21:15:39+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004424s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0729s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000971s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.396738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.397166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007487s ]
+
+[ 2019-09-18T21:15:51+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003444s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.2003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000962s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003067s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.527627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.528620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012788s ]
+
+[ 2019-09-18T21:16:02+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006133s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000809s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001510s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 180 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 208 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.400322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.400896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021424s ]
+
+[ 2019-09-18T21:16:25+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003704s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0567s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003055s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 373 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.342585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.343059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007951s ]
+
+[ 2019-09-18T21:17:01+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003587s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0590s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000979s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 373 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.350515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.351140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018855s ]
+
+[ 2019-09-18T21:17:18+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003218s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0795s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000778s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001414s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 373 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.396771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.397511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007084s ]
+
+[ 2019-09-18T21:18:12+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0921s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000836s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 373 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.513973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.514490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011669s ]
+
+[ 2019-09-18T21:18:20+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010570s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 8,8   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000563s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 373 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.294005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.294679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014108s ]
+
+[ 2019-09-18T21:18:22+08:00 ] ::1 /xunmi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000913s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001636s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 373 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.427599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.428530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008168s ]
+
+[ 2019-09-18T21:18:31+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005005s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0575s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 373 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.276431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.276940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005400s ]
+
+[ 2019-09-18T21:21:35+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000223s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003591s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.571177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.572101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007236s ]
+
+[ 2019-09-18T21:21:47+08:00 ] ::1 /xunmi/index.php/Home/Index/search/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030163s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\wamp\www\xunmi\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1449s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0773s ]
+SQL: SELECT * FROM `xm_hot` WHERE ( h_title like '%%' )  [ RunTime:0.1928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000648s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 118 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.524453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.525139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011042s ]
+
+[ 2019-09-18T21:21:48+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E5%8C%96%E5%A6%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017794s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000948s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001792s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.485503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.486162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018941s ]
+
+[ 2019-09-18T21:21:49+08:00 ] ::1 /xunmi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008988s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1940s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000879s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001581s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.323944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.324622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010781s ]
+
+[ 2019-09-18T21:22:05+08:00 ] ::1 /xunmi/index.php/Home/Index/search/%E5%8C%96%E5%A6%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005363s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\wamp\www\xunmi\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `xm_hot` WHERE ( h_title like '%%' )  [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 118 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016862s ]
+
+[ 2019-09-18T21:22:06+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007328s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0407s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000561s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.454741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.455510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016597s ]
+
+[ 2019-09-18T21:22:07+08:00 ] ::1 /xunmi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006855s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.2954s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001651s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003098s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 229 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.414387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.415071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010743s ]
+
+[ 2019-09-18T21:22:15+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001987s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008853s ]
+
+[ 2019-09-18T21:23:20+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002931s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0475s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000574s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.365560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.366122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006304s ]
+
+[ 2019-09-18T21:29:45+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006056s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0632s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000599s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001461s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.387775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.388510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014709s ]
+
+[ 2019-09-18T21:33:33+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013021s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001006s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001952s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.328952s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.329546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031065s ]
+
+[ 2019-09-18T21:34:10+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005732s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000627s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.524326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.524838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004931s ]
+
+[ 2019-09-18T21:38:15+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0476s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000581s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001501s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.376371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.376829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006324s ]
+
+[ 2019-09-18T21:40:12+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002189s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.364951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.365437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007777s ]
+
+[ 2019-09-18T21:41:45+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0782s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000575s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.189767s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.191160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008943s ]
+
+[ 2019-09-18T21:43:44+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000441s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006961s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1596s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0039s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002284s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.059437s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.062587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018673s ]
+
+[ 2019-09-18T21:45:04+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004738s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0519s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001861s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.366578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.367035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008274s ]
+
+[ 2019-09-18T21:47:26+08:00 ] ::1 /xunmi/index.php/Home/Index/content/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005213s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0612s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 7 LIMIT 1   [ RunTime:0.0128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 122 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.292481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028113s ]
+
+[ 2019-09-18T21:50:04+08:00 ] ::1 /xunmi/index.php/Home/Index/content/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003649s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1379s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 122 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009170s ]
+
+[ 2019-09-18T21:56:12+08:00 ] ::1 /xunmi/index.php/Home/Index/content/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003775s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.2049s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 7 LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001265s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 122 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007457s ]
+
+[ 2019-09-18T21:56:27+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004101s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0637s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000609s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.164228s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.164973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013368s ]
+
+[ 2019-09-18T21:58:02+08:00 ] ::1 /xunmi/index.php/Home/Index/content/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003530s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0693s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 7 LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000590s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001304s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 122 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.330707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.331182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017211s ]
+
+[ 2019-09-18T21:58:13+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003063s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0633s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000535s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.345287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.345778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021361s ]
+
+[ 2019-09-18T21:58:30+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003224s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0499s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004932s ]
+
+[ 2019-09-18T21:58:37+08:00 ] ::1 /xunmi/index.php/Home/Index/content/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003976s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0846s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000607s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001698s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 122 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\c98d6cc5834e97afa6ab2d2fc316c419.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009674s ]
+
+[ 2019-09-18T22:08:17+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0623s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000903s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001939s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.551458s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.551899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013756s ]
+
+[ 2019-09-18T22:08:23+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E5%8C%96%E5%A6%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008340s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0748s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000566s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.310038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.310681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010552s ]
+
+[ 2019-09-18T22:08:23+08:00 ] ::1 /xunmi/index.php/Home/Index/search/%E7%AB%AF%E5%8D%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005817s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\wamp\www\xunmi\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1044s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `xm_hot` WHERE ( h_title like '%化妆%' )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000771s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001644s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 118 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.454429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.455034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005968s ]
+
+[ 2019-09-18T22:08:38+08:00 ] ::1 /xunmi/index.php/Home/Index/index/p/1.html?sou=%E5%A4%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007702s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000957s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.267704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.268125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021530s ]
+
+[ 2019-09-18T22:08:39+08:00 ] ::1 /xunmi/index.php/Home/Index/search/%E5%8C%96%E5%A6%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000235s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\wamp\www\xunmi\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `xm_hot` WHERE ( h_title like '%大%' )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000482s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 118 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003049s ]
+
+[ 2019-09-18T23:14:32+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 207 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.326878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006176s ]
+
+[ 2019-09-18T23:14:32+08:00 ] ::1 /xunmi/index.php/Home/Login/image/blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003796s ]
+
+[ 2019-09-18T23:14:33+08:00 ] ::1 /xunmi/index.php/Home/Login/image/search.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005545s ]
+
+[ 2019-09-18T23:14:36+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 207 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006702s ]
+
+[ 2019-09-18T23:14:36+08:00 ] ::1 /xunmi/index.php/Home/Login/image/blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004266s ]
+
+[ 2019-09-18T23:14:37+08:00 ] ::1 /xunmi/index.php/Home/Login/image/search.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000295s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011897s ]
+
+[ 2019-09-18T23:20:36+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 208 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.195395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.195819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011103s ]
+
+[ 2019-09-18T23:20:41+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 208 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006658s ]
+
+[ 2019-09-18T23:22:13+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 208 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002859s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0927s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002742s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.428786s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210822s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.257373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.466133s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010243s ]
+
+[ 2019-09-18T23:22:20+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000846s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 208 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1621s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.440616s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184439s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.316462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.499256s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008610s ]
+
+[ 2019-09-18T23:22:38+08:00 ] ::1 /xunmi/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.1615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000620s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.403821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.404445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003025s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1377s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000662s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.296543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177222s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.176667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.351498s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007911s ]
+
+[ 2019-09-18T23:25:01+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001901s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002825s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 208 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007104s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000838s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.527876s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280556s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.313666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.589146s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005135s ]
+
+[ 2019-09-18T23:26:54+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000659s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001390s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 208 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.276076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003576s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000771s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.519935s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.480028s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.288264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.766786s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php:95) D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006220s ]
+
+[ 2019-09-18T23:29:12+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000727s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001330s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+NOTIC: [8] Undefined variable: list D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 208 行.
+NOTIC: [8] Undefined variable: page D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005838s ]
+
+[ 2019-09-18T23:32:13+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003458s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.506796s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.507366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006696s ]
+
+[ 2019-09-18T23:32:20+08:00 ] ::1 /xunmi/index.php/Home/Login/login/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003233s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0697s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 8,8   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000703s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001383s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019384s ]
+
+[ 2019-09-18T23:32:22+08:00 ] ::1 /xunmi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007044s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0630s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.207560s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.207986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009038s ]
+
+[ 2019-09-18T23:32:31+08:00 ] ::1 /xunmi/index.php/Home/Login/login/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000659s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009680s ]
+
+[ 2019-09-18T23:32:34+08:00 ] ::1 /xunmi/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000785s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.320035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.320802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009716s ]
+
+[ 2019-09-18T23:33:19+08:00 ] ::1 /xunmi/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007177s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0609s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027032s ]
+
+[ 2019-09-18T23:39:19+08:00 ] ::1 /xunmi/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003520s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0741s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000857s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.241905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009698s ]
+
+[ 2019-09-18T23:39:27+08:00 ] ::1 /xunmi/index.php/Home/Login/register/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004849s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0519s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 8,8   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\524a08806bc29449645d93a7a8f8e680.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019028s ]
+
+[ 2019-09-18T23:39:28+08:00 ] ::1 /xunmi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007255s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000639s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 181 行.
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 209 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.304593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012006s ]
+
+[ 2019-09-18T23:56:18+08:00 ] ::1 /xunmi/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0652s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000934s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011156s ]
+
+[ 2019-09-18T23:56:23+08:00 ] ::1 /xunmi/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004306s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0525s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `xm_user` WHERE `user_name` = 'wang' AND `user_password` = '1' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-09-18T23:56:24+08:00 ] ::1 /xunmi/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004881s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0363s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001624s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.252949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.253374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007763s ]
+
+[ 2019-09-18T23:56:28+08:00 ] ::1 /xunmi/index.php/Home/Login/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000952s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005681s ]
+
+[ 2019-09-18T23:56:38+08:00 ] ::1 /xunmi/index.php/Home/Login/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007298s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `xm_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000804s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004102s ]
+
+[ 2019-09-18T23:56:46+08:00 ] ::1 /xunmi/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006583s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0517s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_hot` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_hot` LIMIT 0,8   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000572s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined index: sou D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010628s ]
+

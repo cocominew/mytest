@@ -1,0 +1,158 @@
+[ 2019-10-08T00:09:10+08:00 ] ::1 /xunmi/index.php/Home/Game/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010926s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.2577s ]
+SQL: SELECT * FROM `xm_game` LEFT JOIN xm_pros on xm_game.g_id=xm_pros.ga_id and xm_pros.user_id='1' LEFT JOIN xm_collection ON xm_game.g_id=xm_collection.ga_id and xm_collection.user_id='1'  ORDER BY g_id asc  [ RunTime:0.5543s ]
+NOTIC: [8] Undefined variable: show D:\wamp\wamp\www\xunmi\Application\Home\Controller\GameController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000793s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.515982s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.516596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012429s ]
+
+[ 2019-10-08T00:09:15+08:00 ] ::1 /xunmi/index.php/Home/Game/content/id/2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007740s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1017s ]
+SQL: SELECT * FROM `xm_game` LEFT JOIN xm_pros on xm_game.g_id=xm_pros.ga_id LEFT JOIN xm_collection ON xm_game.g_id=xm_collection.ga_id   WHERE `g_id` = '2' LIMIT 1   [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000524s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.887301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.887889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008650s ]
+
+[ 2019-10-08T00:09:17+08:00 ] ::1 /xunmi/index.php/Home/Game/pros.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003592s ]
+SQL: SHOW COLUMNS FROM `xm_pros` [ RunTime:0.1128s ]
+SQL: SELECT * FROM `xm_pros` WHERE ( user_id=1 AND ga_id=2 )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_pros` (`ga_id`,`user_id`) VALUES ('2','1') [ RunTime:0.0476s ]
+SQL: UPDATE `xm_pros` SET `zan`=zan+1 WHERE ( ga_id=2 ) [ RunTime:0.0429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004334s ]
+
+[ 2019-10-08T00:09:19+08:00 ] ::1 /xunmi/index.php/Home/Game/content/id/2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000302s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006973s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0716s ]
+SQL: SELECT * FROM `xm_game` LEFT JOIN xm_pros on xm_game.g_id=xm_pros.ga_id LEFT JOIN xm_collection ON xm_game.g_id=xm_collection.ga_id   WHERE `g_id` = '2' LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.209638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010696s ]
+
+[ 2019-10-08T00:09:21+08:00 ] ::1 /xunmi/index.php/Home/Game/collection.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+SQL: SHOW COLUMNS FROM `xm_collection` [ RunTime:0.0719s ]
+SQL: SELECT * FROM `xm_collection` WHERE ( user_id=1 AND ga_id=2 )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003635s ]
+
+[ 2019-10-08T00:09:27+08:00 ] ::1 /xunmi/index.php/Home/Game/content/id/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028235s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0732s ]
+SQL: SELECT * FROM `xm_game` LEFT JOIN xm_pros on xm_game.g_id=xm_pros.ga_id LEFT JOIN xm_collection ON xm_game.g_id=xm_collection.ga_id   WHERE `g_id` = '1' LIMIT 1   [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000993s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.250578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.251033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011629s ]
+
+[ 2019-10-08T00:09:29+08:00 ] ::1 /xunmi/index.php/Home/Game/collection.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004896s ]
+SQL: SHOW COLUMNS FROM `xm_collection` [ RunTime:0.1091s ]
+SQL: SELECT * FROM `xm_collection` WHERE ( user_id=1 AND ga_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_collection` (`ga_id`,`user_id`) VALUES ('1','1') [ RunTime:0.0643s ]
+SQL: UPDATE `xm_collection` SET `collection`=collection+1 WHERE ( ga_id=1 ) [ RunTime:0.0325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004684s ]
+
+[ 2019-10-08T00:09:31+08:00 ] ::1 /xunmi/index.php/Home/Game/content/id/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006462s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0602s ]
+SQL: SELECT * FROM `xm_game` LEFT JOIN xm_pros on xm_game.g_id=xm_pros.ga_id LEFT JOIN xm_collection ON xm_game.g_id=xm_collection.ga_id   WHERE `g_id` = '1' LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000847s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004927s ]
+

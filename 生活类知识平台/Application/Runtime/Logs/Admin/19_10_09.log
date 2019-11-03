@@ -1,0 +1,996 @@
+[ 2019-10-09T23:20:40+08:00 ] ::1 /xunmi/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003836s ]
+
+[ 2019-10-09T23:20:45+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.024592s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.653162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.653913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010695s ]
+
+[ 2019-10-09T23:20:48+08:00 ] ::1 /xunmi/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009960s ]
+
+[ 2019-10-09T23:21:05+08:00 ] ::1 /xunmi/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004482s ]
+SQL: SHOW COLUMNS FROM `xm_admin` [ RunTime:0.4602s ]
+SQL: SELECT * FROM `xm_admin` WHERE `admin_name` = 'admin' AND `user_password` = 'admin' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2019-10-09T23:21:06+08:00 ] ::1 /xunmi/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000264s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.531664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.532339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008322s ]
+
+[ 2019-10-09T23:25:58+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008642s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0962s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000862s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.225232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021632s ]
+
+[ 2019-10-09T23:26:56+08:00 ] ::1 /xunmi/index.php/Admin/Poem/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003249s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0632s ]
+SQL: SELECT * FROM `xm_poem`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000568s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007281s ]
+
+[ 2019-10-09T23:27:00+08:00 ] ::1 /xunmi/index.php/Admin/Poem/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003543s ]
+SQL: SHOW COLUMNS FROM `xm_poem` [ RunTime:0.0884s ]
+SQL: SELECT * FROM `xm_poem` WHERE `p_id` = 3 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.262929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.263415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021683s ]
+
+[ 2019-10-09T23:27:11+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003931s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0749s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001863s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024934s ]
+
+[ 2019-10-09T23:27:15+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003875s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0849s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.216610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006310s ]
+
+[ 2019-10-09T23:27:26+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008710s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0728s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 忆江南',`h_author`='demo',`h_content`='&lt;meta charset=&quot;UTF-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;/&gt;&lt;title&gt;Document&lt;/title&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;忆江南&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;shiren&quot;&gt;【唐】白居易&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南好，风景旧曾谙。日出江花红胜火，春来江水绿如蓝。能不忆江南？&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南忆，最忆是杭州。山寺月中寻桂子，郡亭枕上看潮头。何日更重游！&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南忆，其次忆吴宫。吴酒一杯春竹叶，吴娃双舞醉芙蓉。早晚复相逢！&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566544487474597.jpg&quot; width=&quot;600px&quot; title=&quot;1566544487474597.jpg&quot; alt=&quot;yjn.jpg&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;译文&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的风景多么美好，如画的风景久已熟悉。春天到来时，太阳从江面升起，把江边的鲜花照得比火红，碧绿的江水绿得胜过蓝草。怎能叫人不怀念江南？&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的回忆，最能唤起追思的是像天堂一样的杭州：游玩灵隐寺寻找皎洁月亮中的桂子，登上郡亭，枕卧其上，欣赏那起落的钱塘江大潮。什么时候能够再次去游玩？&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的回忆，再来就是回忆苏州的吴宫，喝一喝吴宫的美酒春竹叶，看一看吴宫的歌女双双起舞像朵朵迷人的芙蓉。不知何时会再次相逢。&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;赏析&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;第一首摄取一年之春的江南景色，写得生机盎然，色彩艳丽。诗人敷彩设色，用色彩明艳的辞藻，很好地显示出江南春色的迷人之态，像作者这样长期居住在苏杭的人自然是“能不忆江南！”即便素未到过江南的人也会急欲一睹为快。第二、三首便是通过突出描绘苏、杭这两个被人喻为可同天堂媲美的地方来验证“江南好”了。三首词各自独立而又互为补充，分别描绘江南的景色美，风物美和女性之美，每首都以“江南好”开篇，而以直接深情之句作结，艺术概括力强，意境奇妙，使人读其词而直欲奔向江南实地观览一番。&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95296&quot; style=&quot;margin-top: -636px; margin-left: 700px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;&quot;&gt;&lt;section style=&quot;padding-right:0.6em;flex:1;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94814&quot;&gt;&lt;section style=&quot;padding: 10px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 2em;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left: -5px;margin-bottom: -4px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdOQkhISDVoeGliT1lldG1iSUxIN0dqbGNpYUo5T1BsR1RlRHF6cktma2JlaWNENGxmbTBVYWpWRmcvMD93eF9mbXQ9Z2lm&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;margin:-18px 0px;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;color: #3f3e3f;padding:0px 1em;&quot;&gt;&lt;p&gt;白居易，字乐天，号香山居士，又号醉吟先生。是唐代伟大的现实主义诗人，唐代三大诗人之一。白居易与元稹共同倡导新乐府运动，世称“元白”，与刘禹锡并称“刘白”。白居易的诗歌题材广泛，形式多样，语言平易通俗，有“诗魔”和“诗王”之称。官至翰林学士、左赞善大夫。公元846年，白居易在洛阳逝世，葬于香山。有《白氏长庆集》传世，代表诗作有《长恨歌》、《卖炭翁》、《琵琶行》等。&lt;/p&gt;&lt;/section&gt;&lt;section style=&quot;width:2em;float: right;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left:5px;margin-top: -2px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdhdGljNm9Fa2dtZTJqYzd4d3JFcDJocGU4bDF5UFI2M2F0OXhqajdYbXBaNVNDUXZrOU1SekJ3LzA/d3hfZm10PWdpZg==&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;width:45px;&quot;&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;width: 1em;text-align:center;font-size:16px;margin:4px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:25px;height:25px;margin:0px auto;background:rgba(142,171,118,1);border-radius:100% ;margin-top:4px;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:20px;height:20px;margin:0px auto;background:rgba(142,171,118,0.6);border-radius:100% ;margin-top: -13px;&quot;&gt;作者介绍&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`h_fabu`='诗词' WHERE `h_id` = 5 [ RunTime:0.0748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003733s ]
+
+[ 2019-10-09T23:27:30+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004004s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0605s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006824s ]
+
+[ 2019-10-09T23:27:43+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010002s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0920s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 忆江南',`h_author`='demo',`h_content`='&lt;meta charset=&quot;UTF-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;/&gt;&lt;title&gt;Document&lt;/title&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;忆江南&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;shiren&quot;&gt;【唐】白居易&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南好，风景旧曾谙。日出江花红胜火，春来江水绿如蓝。能不忆江南？&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南忆，最忆是杭州。山寺月中寻桂子，郡亭枕上看潮头。何日更重游！&lt;/p&gt;&lt;p class=&quot;shi2&quot;&gt;江南忆，其次忆吴宫。吴酒一杯春竹叶，吴娃双舞醉芙蓉。早晚复相逢！&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20190823/1566544487474597.jpg&quot; width=&quot;600px&quot; title=&quot;1566544487474597.jpg&quot; alt=&quot;yjn.jpg&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;译文&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的风景多么美好，如画的风景久已熟悉。春天到来时，太阳从江面升起，把江边的鲜花照得比火红，碧绿的江水绿得胜过蓝草。怎能叫人不怀念江南？&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的回忆，最能唤起追思的是像天堂一样的杭州：游玩灵隐寺寻找皎洁月亮中的桂子，登上郡亭，枕卧其上，欣赏那起落的钱塘江大潮。什么时候能够再次去游玩？&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;江南的回忆，再来就是回忆苏州的吴宫，喝一喝吴宫的美酒春竹叶，看一看吴宫的歌女双双起舞像朵朵迷人的芙蓉。不知何时会再次相逢。&lt;/p&gt;&lt;p class=&quot;shangxi&quot;&gt;赏析&lt;/p&gt;&lt;p class=&quot;fanyi&quot;&gt;第一首摄取一年之春的江南景色，写得生机盎然，色彩艳丽。诗人敷彩设色，用色彩明艳的辞藻，很好地显示出江南春色的迷人之态，像作者这样长期居住在苏杭的人自然是“能不忆江南！”即便素未到过江南的人也会急欲一睹为快。第二、三首便是通过突出描绘苏、杭这两个被人喻为可同天堂媲美的地方来验证“江南好”了。三首词各自独立而又互为补充，分别描绘江南的景色美，风物美和女性之美，每首都以“江南好”开篇，而以直接深情之句作结，艺术概括力强，意境奇妙，使人读其词而直欲奔向江南实地观览一番。&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95296&quot; style=&quot;margin-top: -636px; margin-left: 700px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;&quot;&gt;&lt;section style=&quot;padding-right:0.6em;flex:1;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94814&quot;&gt;&lt;section style=&quot;padding: 10px;&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 2em;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left: -5px;margin-bottom: -4px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdOQkhISDVoeGliT1lldG1iSUxIN0dqbGNpYUo5T1BsR1RlRHF6cktma2JlaWNENGxmbTBVYWpWRmcvMD93eF9mbXQ9Z2lm&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;margin:-18px 0px;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;color: #3f3e3f;padding:0px 1em;&quot;&gt;&lt;p&gt;白居易，字乐天，号香山居士，又号醉吟先生。是唐代伟大的现实主义诗人，唐代三大诗人之一。白居易与元稹共同倡导新乐府运动，世称“元白”，与刘禹锡并称“刘白”。白居易的诗歌题材广泛，形式多样，语言平易通俗，有“诗魔”和“诗王”之称。官至翰林学士、左赞善大夫。公元846年，白居易在洛阳逝世，葬于香山。有《白氏长庆集》传世，代表诗作有《长恨歌》、《卖炭翁》、《琵琶行》等。&lt;/p&gt;&lt;/section&gt;&lt;section style=&quot;width:2em;float: right;&quot;&gt;&lt;img class=&quot;assistant&quot; style=&quot;width: 100%;display: block;margin-left:5px;margin-top: -2px;&quot; src=&quot;https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzd5QkZBQllQdFlaeTFlRjdCNGxIOWdhdGljNm9Fa2dtZTJqYzd4d3JFcDJocGU4bDF5UFI2M2F0OXhqajdYbXBaNVNDUXZrOU1SekJ3LzA/d3hfZm10PWdpZg==&quot; data-ratio=&quot;1.03125&quot; data-width=&quot;100%&quot;/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;width:45px;&quot;&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;width: 1em;text-align:center;font-size:16px;margin:4px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:22px;border-bottom:1px solid #333;margin: 0px auto;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:25px;height:25px;margin:0px auto;background:rgba(142,171,118,1);border-radius:100% ;margin-top:4px;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width:20px;height:20px;margin:0px auto;background:rgba(142,171,118,0.6);border-radius:100% ;margin-top: -13px;&quot;&gt;作者介绍&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`h_fabu`='诗词' WHERE `h_id` = 5 [ RunTime:0.0633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005394s ]
+
+[ 2019-10-09T23:27:46+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003327s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007772s ]
+
+[ 2019-10-09T23:29:12+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004611s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1987s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.1347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000702s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009609s ]
+
+[ 2019-10-09T23:29:15+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007439s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0920s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 1 LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000798s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003024s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009130s ]
+
+[ 2019-10-09T23:29:24+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010153s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0618s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000583s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009971s ]
+
+[ 2019-10-09T23:29:28+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004166s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0785s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 6 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000508s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005221s ]
+
+[ 2019-10-09T23:29:40+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014629s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0893s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 王者荣耀新人教学',`h_author`='wendy',`h_content`='&lt;section data-role=&quot;outer&quot; label=&quot;Powered by 135editor.com&quot; style=&quot;font-size: 16px; margin-top: 50px;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;一、英雄所带技能的推荐：&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;关于新手玩家刚开始拥有的英雄技能有&amp;quot;惩戒&amp;quot;、&amp;quot;斩杀&amp;quot;还有&amp;quot;狂暴&amp;quot;，我建议先带&amp;quot;斩杀&amp;quot;还有&amp;quot;狂暴&amp;quot;玩一玩，这样可以很容易取得人头，获得更多的经济。 &amp;quot;惩戒&amp;quot;的话，比较适合打野的英雄，但是在新手时期，我觉得还是注重于对技能的培养吧。打野可以后期在练习。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;随着等级的提高，还会解锁解锁&amp;quot;幽灵疾步&amp;quot;、&amp;quot;治疗术&amp;quot;和&amp;quot;干扰&amp;quot;，这个技能都很适合新手使用。&amp;quot;幽灵疾步&amp;quot;可以增加移动速度， &amp;quot;治疗术&amp;quot;有回复自己与周围队友的最大生命值的能力，&amp;quot;干扰&amp;quot;有着沉默防御塔或者水晶几秒的能力，再之后还会解锁&amp;quot;眩晕&amp;quot;、&amp;quot;净化&amp;quot;、&amp;quot;弱化&amp;quot;这三个技能。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span style=&quot;color: #544443;&quot;&gt;&lt;img src=&quot;https://image.135editor.com/files/users/689/6897714/201910/FVZVTWsL_t99t.jpg&quot; data-ratio=&quot;1&quot; alt=&quot;jineng.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;二、各类&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;英雄的推荐路线：&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span class=&quot;bjh-p&quot;&gt;上路：广大人群都是觉得坦克类的英雄走上路比较合适，我方的上路相对的是对面的下野区，同时就是红Buff所在的野区，作为一个上单，必然要面对拿了红BUFF的射手，前期更难受，处理不好，分分送一血，而坦克英雄的血比较厚，对阵带有红Buff的敌人对线时不会轻易被击杀。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:justify; margin: 22px 0px 0px; padding: 0px; font-size: 16px; line-height: 24px; color: rgb(51, 51, 51); font-family: arial;&quot;&gt;&lt;span class=&quot;bjh-p&quot;&gt;下路：战士、刺客、辅助、射手类英雄推荐走下路，而需要走下路的英雄应该尽量地辅助射手，因为射手前期比较脆皮。下路对应的是对面上野区，是蓝Buff存在的野区，射手被辅助的好的话，我方下路被辅助的射手就可以对敌方造成高额的伤害。中路：法师类英雄最好是选择中路。&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;三、注意和队友的配合&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; style=&quot;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3); box-sizing: border-box;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 16px; text-align: justify; display: inline !important; font-family: arial;&quot;&gt;这个游戏是团战游戏，推塔游戏，所以，游戏中很需要与队友团结，要和队友共同承担，同时沟通也是很重要的，遇到问题和队友沟通，互相配合。以达到利益最大化。从而赢得游戏。&lt;/span&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;89010&quot;&gt;&lt;section style=&quot;width:100%; max-width:640px;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 95%; height: auto; margin: 0px auto; border-left: 3px solid rgb(164, 3, 3); padding-top: 20px; box-sizing: border-box;&quot; data-width=&quot;95%&quot;&gt;&lt;section style=&quot;padding: 0px; width: 100%; height: 30px; box-sizing: border-box;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;width: 15px; height: 15px; border-radius: 100%; background-color: rgb(164, 3, 3); margin-left: -9.5px; display: inline-block; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot; display:inline-block; clear:both; width:22px; height:22px;&quot;&gt;&lt;section style=&quot; display:inline-block; clear:both; width:19px; height:19px; overflow:hidden;&quot;&gt;&lt;section style=&quot;border:solid 2px #a40303; width:20px; height:20px; margin-left:6px; clear:both;transform: rotate(44deg);-webkit-transform: rotate(44deg);-moz-transform: rotate(44deg);-ms-transform: rotate(44deg);-o-transform: rotate(44deg);&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;border: 2px solid rgb(164, 3, 3); display: inline-block; height: 30px; line-height: 30px; margin-left: -10px; box-sizing: border-box;&quot;&gt;&lt;p class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size:16px; color:#a40303; padding-top:0px; margin-top:0px; padding-left:5px; padding-right:5px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 700; text-align: justify; font-size: 16px; display: inline !important; font-family: arial;&quot;&gt;四、学会支援&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&quot;padding: 10px 20px;margin:0 auto;font-size:16px;color:#a40303;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 16px; text-align: justify; display: inline !important; font-family: arial;&quot;&gt;新手和老司机的明显区别之一，老司机在清理兵线和打野的同时，还能够照看小地图，随时支援近处的队友，可消耗对手或直接收取人头。所以值得新手学习。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;padding: 10px 20px; margin: 0px auto; font-size: 16px; color: rgb(164, 3, 3);&quot;&gt;&lt;img src=&quot;https://image.135editor.com/files/users/689/6897714/201910/3nwtHWBc_ROTv.jpg&quot; data-ratio=&quot;1&quot; alt=&quot;wz.jpg&quot;/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`h_fabu`='节日习俗' WHERE `h_id` = 6 [ RunTime:0.1674s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007021s ]
+
+[ 2019-10-09T23:29:42+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008412s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0627s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000535s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010603s ]
+
+[ 2019-10-09T23:30:29+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005185s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0607s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005188s ]
+
+[ 2019-10-09T23:30:32+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004765s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 2 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000792s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011904s ]
+
+[ 2019-10-09T23:30:56+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003980s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1286s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000919s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016087s ]
+
+[ 2019-10-09T23:31:01+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003807s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0608s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 12 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005447s ]
+
+[ 2019-10-09T23:31:12+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003865s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0893s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 和平精英',`h_author`='呆呆',`h_content`='&lt;section data-role=&quot;outer&quot; label=&quot;Powered by 135editor.com&quot; style=&quot;font-size: 16px; margin-top: 50px;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;1&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;枪械的选择&lt;/span&gt;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;新手一般就配一把步枪和狙击枪，但是步枪要&amp;nbsp; &amp;nbsp;选M4A1或者Scar-L步枪，他们适合中距离作&amp;nbsp; &amp;nbsp;战，后坐力很小。千万不要轻易触碰AKM，它&amp;nbsp; &amp;nbsp;的后坐力会让你怀疑人生的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;2&quot;&gt;2&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; text-align: center; box-sizing: border-box;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px;&quot;&gt;跑毒&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;随着后面圈越来越小，跑毒是无法避免的，但是切记一定要沿着毒圈跑，不要在空旷的地段跑，不要直接进入安全区中心。否则会被四面八方的人打靶，成为众矢之的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;br/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;3&quot;&gt;3&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong&gt;收集小物资&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里面不仅有各式各样的枪械，还有很多小东西。比如止疼药、饮料等必需品，但是还有一些经常被人们忽视，就像烟雾弹、闪光弹、燃烧瓶等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;他们作用其实是很大的，烟雾弹无论是在平原转移，还是在救人的时候都可以充当掩体的作用，而闪光弹在突进、贴脸打时有奇效，几秒的时间足够你将敌人击杀了。而手雷、燃烧瓶则是对付有掩体敌人的神器了。&lt;/span&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;4&quot;&gt;4&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;配件的选择&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里有各种各样的配件，但是很多玩家都盲目的选择。就比如水平握把和垂直握把，一个减少水平后坐力，一个减少垂直后坐力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; 一般垂直后坐力是比水平后坐力好控制的，所以不要盲目的选择垂直握把。而像轻型握把适合单点，对于SKS这种单点的狙击枪最适合不过了&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`h_fabu`='节日习俗' WHERE `h_id` = 12 [ RunTime:0.0964s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000589s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001659s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010655s ]
+
+[ 2019-10-09T23:31:14+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006994s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000943s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028373s ]
+
+[ 2019-10-09T23:31:45+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004693s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1057s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 12 LIMIT 1   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014560s ]
+
+[ 2019-10-09T23:31:58+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003956s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1099s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 和平精英',`h_author`='呆呆',`h_content`='&lt;section data-role=&quot;outer&quot; label=&quot;Powered by 135editor.com&quot; style=&quot;font-size: 16px; margin-top: 50px;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;1&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;枪械的选择&lt;/span&gt;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;新手一般就配一把步枪和狙击枪，但是步枪要&amp;nbsp; &amp;nbsp;选M4A1或者Scar-L步枪，他们适合中距离作&amp;nbsp; &amp;nbsp;战，后坐力很小。千万不要轻易触碰AKM，它的后坐力会让你怀疑人生的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;2&quot;&gt;2&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; text-align: center; box-sizing: border-box;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px;&quot;&gt;跑毒&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;随着后面圈越来越小，跑毒是无法避免的，但是切记一定要沿着毒圈跑，不要在空旷的地段跑，不要直接进入安全区中心。否则会被四面八方的人打靶，成为众矢之的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;br/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;3&quot;&gt;3&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong&gt;收集小物资&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里面不仅有各式各样的枪械，还有很多小东西。比如止疼药、饮料等必需品，但是还有一些经常被人们忽视，就像烟雾弹、闪光弹、燃烧瓶等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;他们作用其实是很大的，烟雾弹无论是在平原转移，还是在救人的时候都可以充当掩体的作用，而闪光弹在突进、贴脸打时有奇效，几秒的时间足够你将敌人击杀了。而手雷、燃烧瓶则是对付有掩体敌人的神器了。&lt;/span&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;4&quot;&gt;4&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;配件的选择&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里有各种各样的配件，但是很多玩家都盲目的选择。就比如水平握把和垂直握把，一个减少水平后坐力，一个减少垂直后坐力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; 一般垂直后坐力是比水平后坐力好控制的，所以不要盲目的选择垂直握把。而像轻型握把适合单点，对于SKS这种单点的狙击枪最适合不过了&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`h_fabu`='节日习俗' WHERE `h_id` = 12 [ RunTime:0.0798s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004271s ]
+
+[ 2019-10-09T23:32:00+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006880s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1310s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.049373s ]
+
+[ 2019-10-09T23:32:03+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004832s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0621s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000535s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003976s ]
+
+[ 2019-10-09T23:32:05+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008727s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0865s ]
+SQL: SELECT * FROM `xm_game` WHERE `g_id` = 2 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004651s ]
+
+[ 2019-10-09T23:32:12+08:00 ] ::1 /xunmi/index.php/Admin/Game/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007521s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.0628s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_game` SET `g_title`='■ 和平精英',`g_author`='呆呆',`g_content`='&lt;section data-role=&quot;outer&quot; label=&quot;Powered by 135editor.com&quot; style=&quot;font-size: 16px; margin-top: 50px;&quot;&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot;&gt;1&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;枪械的选择&lt;/span&gt;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;新手一般就配一把步枪和狙击枪，但是步枪要&amp;nbsp; &amp;nbsp;选M4A1或者Scar-L步枪，他们适合中距离作&amp;nbsp; &amp;nbsp;战，后坐力很小。千万不要轻易触碰AKM，它的后坐力会让你怀疑人生的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;2&quot;&gt;2&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; text-align: center; box-sizing: border-box;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px;&quot;&gt;跑毒&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;width: 100%;margin: -15px 0px;&quot; data-width=&quot;100%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); text-indent: 32px; font-size: 15px; display: inline !important; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;随着后面圈越来越小，跑毒是无法避免的，但是切记一定要沿着毒圈跑，不要在空旷的地段跑，不要直接进入安全区中心。否则会被四面八方的人打靶，成为众矢之的。&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;br/&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;3&quot;&gt;3&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong&gt;收集小物资&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里面不仅有各式各样的枪械，还有很多小东西。比如止疼药、饮料等必需品，但是还有一些经常被人们忽视，就像烟雾弹、闪光弹、燃烧瓶等。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;他们作用其实是很大的，烟雾弹无论是在平原转移，还是在救人的时候都可以充当掩体的作用，而闪光弹在突进、贴脸打时有奇效，几秒的时间足够你将敌人击杀了。而手雷、燃烧瓶则是对付有掩体敌人的神器了。&lt;/span&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-role=&quot;paragraph&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;section class=&quot;_135editor&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;95084&quot;&gt;&lt;section style=&quot;width: 100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;display: flex;justify-content: center;align-items: center;&quot;&gt;&lt;section style=&quot;display: inline-block;color: #333;&quot;&gt;&lt;section style=&quot;padding: 5px 1em; text-align: center; box-sizing: border-box;&quot;&gt;0&lt;span class=&quot;autonum&quot; data-original-title=&quot;&quot; title=&quot;&quot; data-num=&quot;4&quot;&gt;4&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 1px solid rgb(153, 153, 153); width: 3em; margin: 0px auto; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section class=&quot;135brush&quot; data-brushtype=&quot;text&quot; style=&quot;font-size: 14px; letter-spacing: 1.5px; padding: 6px 1em 0px; box-sizing: border-box;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;配件的选择&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;strong style=&quot;padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-size: 16px; text-indent: 32px; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/section&gt;&lt;section style=&quot;border-bottom: 12px solid rgb(203, 203, 239); margin: -8px 0px; box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&quot;flex: 1 1 0%; padding-left: 10px; box-sizing: border-box;&quot;&gt;&lt;section style=&quot;width: 1.2em; height: 1.2em; border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;和平精英里有各种各样的配件，但是很多玩家都盲目的选择。就比如水平握把和垂直握把，一个减少水平后坐力，一个减少垂直后坐力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;span style=&quot;font-size: 15px; color: rgb(51, 51, 51); text-indent: 2em; caret-color: red; font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp; &amp;nbsp; 一般垂直后坐力是比水平后坐力好控制的，所以不要盲目的选择垂直握把。而像轻型握把适合单点，对于SKS这种单点的狙击枪最适合不过了&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;width: 100%;margin: -15px 0px;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;section style=&quot;float: right; width: 1.2em; height: 1.2em; border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); box-sizing: border-box;&quot;&gt;&lt;/section&gt;&lt;section style=&quot;clear: both;&quot;&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;',`g_fabu`='娱乐' WHERE `g_id` = 2 [ RunTime:0.0893s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\GameController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000655s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004028s ]
+
+[ 2019-10-09T23:32:14+08:00 ] ::1 /xunmi/index.php/Admin/Game/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004525s ]
+SQL: SHOW COLUMNS FROM `xm_game` [ RunTime:0.1724s ]
+SQL: SELECT * FROM `xm_game`  [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001023s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004021s ]
+
+[ 2019-10-09T23:35:34+08:00 ] ::1 /xunmi/index.php/Admin/Food/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004498s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.2209s ]
+SQL: SELECT * FROM `xm_food`  [ RunTime:0.0203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000809s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011996s ]
+
+[ 2019-10-09T23:35:39+08:00 ] ::1 /xunmi/index.php/Admin/Food/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005149s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0842s ]
+SQL: SELECT * FROM `xm_food` WHERE `f_id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000911s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.318200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.318664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008049s ]
+
+[ 2019-10-09T23:35:48+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003680s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0973s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000809s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020399s ]
+
+[ 2019-10-09T23:35:52+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003645s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0595s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004618s ]
+
+[ 2019-10-09T23:51:04+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013699s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0806s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 糖醋排骨的做法',`h_author`='bell',`h_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①肋排焯水后煮30分钟，捞出后用一汤匙料酒、一汤匙生抽腌制二十分钟。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20191009/1570636220125682.jpg&quot; width=&quot;600px&quot; title=&quot;1570636220125682.jpg&quot; alt=&quot;tcpg1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②捞出肋排洗净控水，锅内放排骨和腌排骨的水。倒油，放入鸡翅，开小火煎至两面金黄，倒入适量酱油。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20191009/1570636240616086.jpg&quot; width=&quot;600px&quot; title=&quot;1570636240616086.jpg&quot; alt=&quot;tcpg2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;③加入白糖，小火焖十分钟后收汁，放入香醋，出锅后撒葱花酱料少许味精即可。&lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20191009/1570636255272089.jpg&quot; width=&quot;600px&quot; title=&quot;1570636255272089.jpg&quot; alt=&quot;tcpg3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;糖醋排骨&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; color: #000000; font-family: sans-serif; font-size: 16px;               &quot;&gt;糖醋排骨（Sweet and Sour Spare Ribs），是糖醋味型中具有代表性的一道大众喜爱的特色传统名菜。它选用新鲜猪子排作主料，肉质鲜嫩，成菜色泽红亮油润。“糖醋”中国各大菜系都拥有的一种口味。糖醋排骨起源浙江，是典型的一道浙菜。正宗的糖醋排骨做法和用料都颇为讲究，一般排骨选用仔排、肋排。排骨需先去除血水，沥干腌制入味，然后裹上粉下油炸至表面金黄酥脆捞出备用，冰糖炒出糖色后放排骨入锅翻炒，最后淋上米醋调成糖醋味。这里一定要用米醋，陈醋味道太重影响口感！&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`h_fabu`='家常菜谱' WHERE `h_id` = 2 [ RunTime:0.0684s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012206s ]
+
+[ 2019-10-09T23:51:05+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003775s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0621s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015315s ]
+
+[ 2019-10-09T23:51:50+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004080s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.1029s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 2 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000780s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006235s ]
+
+[ 2019-10-09T23:53:38+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000997s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010292s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0924s ]
+NOTIC: [8] Undefined index: validate D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\wamp\www\xunmi\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `xm_hot` SET `h_title`='■ 糖醋排骨的做法',`h_author`='bell',`h_content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;border-bottom-style: dotted;border-color: rgb(243, 117, 27)&quot;&gt;&lt;input type=&quot;text&quot; value=&quot;详细做法&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:40px&quot; class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;①肋排焯水后煮30分钟，捞出后用一汤匙料酒、一汤匙生抽腌制二十分钟。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20191009/1570636220125682.jpg&quot; width=&quot;600px&quot; title=&quot;1570636220125682.jpg&quot; alt=&quot;tcpg1.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&amp;nbsp;&lt;span style=&quot;font-size: 18px;&quot;&gt;②捞出肋排洗净控水，锅内放排骨和腌排骨的水。倒油，放入鸡翅，开小火煎至两面金黄，倒入适量酱油。&lt;/span&gt; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20191009/1570636240616086.jpg&quot; width=&quot;600px&quot; title=&quot;1570636240616086.jpg&quot; alt=&quot;tcpg2.jpg&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;zuofa&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;③加入白糖，小火焖十分钟后收汁，放入香醋，出锅后撒葱花酱料少许味精即可。&lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20191009/1570636255272089.jpg&quot; width=&quot;600px&quot; title=&quot;1570636255272089.jpg&quot; alt=&quot;tcpg3.jpg&quot;/&gt;&lt;/p&gt;&lt;section class=&quot;_135editor hidden-xs hidden-sm&quot; data-tools=&quot;135编辑器&quot; data-id=&quot;94687&quot; style=&quot;width: 350px;top: 670px;left: 85px; position: absolute;&quot;&gt;&lt;section style=&quot;width:100%;&quot; data-width=&quot;100%&quot;&gt;&lt;section style=&quot;color: #42b57a;background: #eefff6;&quot;&gt;&lt;section class=&quot;135bg&quot; style=&quot;background-image:url(https://image2.135editor.com/cache/remote/aHR0cHM6Ly9tbWJpei5xbG9nby5jbi9tbWJpel9naWYvN1FSVHZrSzJxQzZteDBjNk9keDduQzE1T2ljbWJ6aFRlMEJrRUExT3FWdjk3VlVFQm00MmNYUFBMY0hZV2lhWW1sYkdwcng3NGQxNjBWNmliMWljMG9Gd0xBLzA/d3hfZm10PWdpZg==);background-repeat:no-repeat; background-size:90%;background-position:top center;&quot;&gt;&lt;section data-autoskip=&quot;1&quot; class=&quot;135brush&quot; style=&quot;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding:2.5em 1em 1em 1em;&quot;&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; font-family: sans-serif; font-size: 16px;                color: salmon;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;糖醋排骨&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0px; color: #000000; font-family: sans-serif; font-size: 16px;               &quot;&gt;糖醋排骨（Sweet and Sour Spare Ribs），是糖醋味型中具有代表性的一道大众喜爱的特色传统名菜。它选用新鲜猪子排作主料，肉质鲜嫩，成菜色泽红亮油润。“糖醋”中国各大菜系都拥有的一种口味。糖醋排骨起源浙江，是典型的一道浙菜。正宗的糖醋排骨做法和用料都颇为讲究，一般排骨选用仔排、肋排。排骨需先去除血水，沥干腌制入味，然后裹上粉下油炸至表面金黄酥脆捞出备用，冰糖炒出糖色后放排骨入锅翻炒，最后淋上米醋调成糖醋味。这里一定要用米醋，陈醋味道太重影响口感！&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section data-role=&quot;paragraph&quot; class=&quot;_135editor&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/section&gt;',`h_fabu`='家常菜谱' WHERE `h_id` = 2 [ RunTime:0.0627s ]
+NOTIC: [8] Use of undefined constant lst - assumed 'lst' D:\wamp\wamp\www\xunmi\Application\Admin\Controller\HotController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001912s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007668s ]
+
+[ 2019-10-09T23:53:39+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006484s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0534s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000779s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015278s ]
+
+[ 2019-10-09T23:55:20+08:00 ] ::1 /xunmi/index.php/Admin/Trivial/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000334s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020678s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.4569s ]
+SQL: SELECT * FROM `xm_trivial`  [ RunTime:0.0532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000603s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.295187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018171s ]
+
+[ 2019-10-09T23:57:29+08:00 ] ::1 /xunmi/index.php/Admin/Trivial/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003430s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.0871s ]
+SQL: SELECT * FROM `xm_trivial` WHERE `t_id` = 1 LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001692s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.379607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.380697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007721s ]
+
+[ 2019-10-09T23:57:37+08:00 ] ::1 /xunmi/index.php/Admin/Hot/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004657s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0709s ]
+SQL: SELECT * FROM `xm_hot`  [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019273s ]
+
+[ 2019-10-09T23:57:42+08:00 ] ::1 /xunmi/index.php/Admin/Hot/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008744s ]
+SQL: SHOW COLUMNS FROM `xm_hot` [ RunTime:0.0677s ]
+SQL: SELECT * FROM `xm_hot` WHERE `h_id` = 9 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003920s ]
+

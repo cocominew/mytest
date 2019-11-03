@@ -1,0 +1,30 @@
+<?php
+session_start();
+header("Content-Type:image/png");
+$im=imagecreate(210,30);
+$bg=imagecolorallocate($im,255,100,255);
+$white=imagecolorallocate($im,255,255,255);
+$black=imagecolorallocate($im,0,0,0);
+$numer_array=range(0,9);
+$abc=range('a','z');
+$big_abc=range('A','z');
+$big_chars=array_merge($numer_array,$abc,$big_abc);
+$font='ALGER.TTF';
+$myimagecode='';
+for($i=0;$i<4;$i++){
+    $str=$big_chars[rand(0,61)];
+    $myimagecode=$myimagecode.$str;
+    $a=50*$i;
+    $b=50*($i+1);
+    imagettftext($im,20,0,mt_rand($a,$b),mt_rand(20,30),$black,$font,$str);
+}
+$_SESSION['thisimagecode']=$myimagecode;
+for ($i=0;$i<200;$i++){
+    imagesetpixel($im,mt_rand(0,200),mt_rand(0,30),$white);
+}
+for($i=0;$i<3;$i++){
+    $line=imagecolorallocate($im,mt_rand(50,200),mt_rand(50,200),mt_rand(50,200));
+    imageline($im,mt_rand(1,99),mt_rand(1,29),mt_rand(1,99),mt_rand(1,29),$line);
+}
+imagepng($im);
+imagedestroy($im);

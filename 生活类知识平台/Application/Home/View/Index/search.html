@@ -1,0 +1,39 @@
+<include file="Common:head"/>  
+    <section id="hothot" style="position: relative">
+            <div class="container">
+                <div class="row">
+                        <if condition="$total !=0">
+                        <volist name="hots" id="vo">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="panel-body">
+                                    <div class="p">
+                                        <div class="photo" style="height:235px;">
+                                            <a href="__CONTROLLER__/content/id/{$vo.h_id}" target="_blank" class="a">
+                                                <if condition="$vo['h_pic'] neq null">
+                                                    <img src="__ROOT__{$vo.h_pic}" height="235px" />
+                                                    <else />
+                                                    <img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" /></if>
+                                            </a>
+                                        </div>
+                                        <div class="text">
+                                            <div class="t">{$vo.h_title}</div>
+                                            <div class="d">
+                                                <div class="d1"><a class="glyphicon glyphicon-thumbs-up"
+                                                        style="cursor:pointer" ></a><span>{$vo.zan}</span></div>
+                                                <div class="d2"><i class="glyphicon glyphicon-star-empty"
+                                                        style="cursor:pointer" onclick="collection()"></i><span>{$vo.collection}</span></div>
+                                            </div>
+                                            <div class="author">
+                                                <img width="24" height="24" src="__ROOT__{$vo.h_tou}">
+                                                <p style="color: #444;">{$vo.h_author}<br><span>发布到 {$vo.h_fabu}</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </volist>
+                        <h5 class="text-muted" style="bottom: -51px;left: 42%;position: absolute;">共搜索到<?php echo "$total";?>条记录</h5><else/>
+                        <p style="margin-top:50px"><b>SORRY！此关键字没有查询到记录</b></p></if>
+                    </div>
+                    </div>
+                    </section> 

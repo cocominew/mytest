@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <title>热门推荐 -寻觅,发现生活之美</title>
+
+    <head>
+        <include file="Common:head" />
+        <div id="remen">
+            <p>❤喜欢❤
+                <hr />
+            </p>
+        </div>
+        <section id="hothot" style="position: relative">
+            <div class="container">
+                <div class="row">
+                    <foreach name="zan1" item="vo">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="panel-body">
+                                <div class="p">
+                                    <div class="photo" style="height:235px;">
+                                        <a href="__MODULE__/Index/content/id/{$vo.h_id}" target="_blank" class="a">
+                                            <if condition="$vo['h_pic'] neq null">
+                                                <img src="__ROOT__{$vo.h_pic}" height="235px" />
+                                                <else />
+                                                <img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" /></if>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="t">{$vo.h_title}</div>
+                                        <div class="d">
+                                            <div class="d1"><a class="glyphicon glyphicon-thumbs-up zan"
+                                                    style="text-decoration: none"></a><span>{$vo.zan}</span>
+                                            </div>
+                                            <div class="d2"><i class="glyphicon glyphicon-star-empty"
+                                                    style="text-decoration: none"></i><span>{$vo.collection}</span>
+                                            </div>
+                                        </div>
+                                        <div class="author">
+                                            <img width="24" height="24" src="__ROOT__{$vo.h_tou}">
+                                            <p style="color: #444;">{$vo.h_author}<br><span>发布到 {$vo.h_fabu}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreach>
+
+                    <foreach name="zan2" item="vo">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="panel-body">
+                                <div class="p">
+                                    <div class="photo" style="height:235px;">
+                                        <a href="__MODULE__/festival/content/id/{$vo.f_id}" target="_blank" class="a">
+                                            <if condition="$vo['f_pic'] neq null">
+                                                <img src="__ROOT__{$vo.f_pic}" height="235px" />
+                                                <else />
+                                                <img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" /></if>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="t">{$vo.f_title}</div>
+                                        <div class="d">
+                                            <div class="d1"><a class="glyphicon glyphicon-thumbs-up zan"
+                                                    style="text-decoration: none"></a><span>{$vo.zan}</span>
+                                            </div>
+                                            <div class="d2"><i class="glyphicon glyphicon-star-empty"
+                                                    style="text-decoration: none"></i><span>{$vo.collection}</span>
+                                            </div>
+                                        </div>
+                                        <div class="author">
+                                            <img width="24" height="24" src="__ROOT__{$vo.f_tou}">
+                                            <p style="color: #444;">{$vo.f_author}<br><span>发布到 {$vo.f_fabu}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreach>
+
+                    <foreach name="zan3" item="vo">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="panel-body">
+                                <div class="p">
+                                    <div class="photo" style="height:235px;">
+                                        <a href="__MODULE__/cook/content/id/{$vo.f_id}" target="_blank" class="a">
+                                            <if condition="$vo['f_pic'] neq null">
+                                                <img src="__ROOT__{$vo.f_pic}" height="235px" />
+                                                <else />
+                                                <img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" /></if>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="t">{$vo.f_title}</div>
+                                        <div class="d">
+                                            <div class="d1"><a class="glyphicon glyphicon-thumbs-up zan"
+                                                    style="text-decoration: none"></a><span>{$vo.zan}</span>
+                                            </div>
+                                            <div class="d2"><i class="glyphicon glyphicon-star-empty"
+                                                    style="text-decoration: none"></i><span>{$vo.collection}</span>
+                                            </div>
+                                        </div>
+                                        <div class="author">
+                                            <img width="24" height="24" src="__ROOT__{$vo.f_tou}">
+                                            <p style="color: #444;">{$vo.f_author}<br><span>发布到 {$vo.f_fabu}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreach>
+
+                    <foreach name="zan4" item="vo">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="panel-body">
+                                <div class="p">
+                                    <div class="photo" style="height:235px;">
+                                        <a href="__MODULE__/trivial/content/id/{$vo.t_id}" target="_blank" class="a">
+                                            <if condition="$vo['t_pic'] neq null">
+                                                <img src="__ROOT__{$vo.t_pic}" height="235px" />
+                                                <else />
+                                                <img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" /></if>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="t">{$vo.t_title}</div>
+                                        <div class="d">
+                                            <div class="d1"><a class="glyphicon glyphicon-thumbs-up zan"
+                                                    style="text-decoration: none"></a><span>{$vo.zan}</span>
+                                            </div>
+                                            <div class="d2"><i class="glyphicon glyphicon-star-empty"
+                                                    style="text-decoration: none"></i><span>{$vo.collection}</span>
+                                            </div>
+                                        </div>
+                                        <div class="author">
+                                            <img width="24" height="24" src="__ROOT__{$vo.t_tou}">
+                                            <p style="color: #444;">{$vo.t_author}<br><span>发布到 {$vo.t_fabu}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreach>
+
+                    <foreach name="zan5" item="vo">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="panel-body">
+                                <div class="p">
+                                    <div class="photo" style="height:235px;">
+                                        <a href="__MODULE__/mz/content/id/{$vo.s_id}" target="_blank" class="a">
+                                            <if condition="$vo['s_pic'] neq null">
+                                                <img src="__ROOT__{$vo.s_pic}" height="235px" />
+                                                <else />
+                                                <img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" /></if>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="t">{$vo.s_title}</div>
+                                        <div class="d">
+                                            <div class="d1"><a class="glyphicon glyphicon-thumbs-up zan"
+                                                    style="text-decoration: none"></a><span>{$vo.zan}</span>
+                                            </div>
+                                            <div class="d2"><i class="glyphicon glyphicon-star-empty"
+                                                    style="text-decoration: none"></i><span>{$vo.collection}</span>
+                                            </div>
+                                        </div>
+                                        <div class="author">
+                                            <img width="24" height="24" src="__ROOT__{$vo.s_tou}">
+                                            <p style="color: #444;">{$vo.s_author}<br><span>发布到 {$vo.s_fabu}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreach>
+
+                    <foreach name="zan6" item="vo">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="panel-body">
+                                <div class="p">
+                                    <div class="photo" style="height:235px;">
+                                        <a href="__MODULE__/poem/content/id/{$vo.p_id}" target="_blank" class="a">
+                                            <if condition="$vo['p_pic'] neq null">
+                                                <img src="__ROOT__{$vo.p_pic}" height="235px" />
+                                                <else />
+                                                <img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" /></if>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="t">{$vo.p_title}</div>
+                                        <div class="d">
+                                            <div class="d1"><a class="glyphicon glyphicon-thumbs-up zan"
+                                                    style="text-decoration: none"></a><span>{$vo.zan}</span>
+                                            </div>
+                                            <div class="d2"><i class="glyphicon glyphicon-star-empty"
+                                                    style="text-decoration: none"></i><span>{$vo.collection}</span>
+                                            </div>
+                                        </div>
+                                        <div class="author">
+                                            <img width="24" height="24" src="__ROOT__{$vo.p_tou}">
+                                            <p style="color: #444;">{$vo.p_author}<br><span>发布到 {$vo.p_fabu}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreach>
+
+                    <foreach name="zan7" item="vo">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="panel-body">
+                                <div class="p">
+                                    <div class="photo" style="height:235px;">
+                                        <a href="__MODULE__/game/content/id/{$vo.g_id}" target="_blank" class="a">
+                                            <if condition="$vo['g_pic'] neq null">
+                                                <img src="__ROOT__{$vo.g_pic}" height="235px" />
+                                                <else />
+                                                <img src="__ROOT__/Uploads/2019-08-23/暂无图片.jpg" height="235px" /></if>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="t">{$vo.g_title}</div>
+                                        <div class="d">
+                                            <div class="d1"><a class="glyphicon glyphicon-thumbs-up zan"
+                                                    style="text-decoration: none"></a><span>{$vo.zan}</span>
+                                            </div>
+                                            <div class="d2"><i class="glyphicon glyphicon-star-empty"
+                                                    style="text-decoration: none"></i><span>{$vo.collection}</span>
+                                            </div>
+                                        </div>
+                                        <div class="author">
+                                            <img width="24" height="24" src="__ROOT__{$vo.g_tou}">
+                                            <p style="color: #444;">{$vo.g_author}<br><span>发布到 {$vo.g_fabu}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreach>
+                </div>
+            </div>
+        </section>
+        </body>
+
+</html>

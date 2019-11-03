@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <include file="Common:head"/>
+	<include file="Common:left"/>
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">收件箱</span></div>
+        </div>
+        <div class="search-wrap">
+            
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+              
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>                          
+                            <th>ID</th>
+                            <th>反馈内容</th>
+                            <th>联系方式</th>
+                            <th>时间</th>
+                            <th>操作</th>
+                        </tr>
+                   
+				   <volist name="feedbacks" id="vo">
+                        <tr>
+                            <td class="tc"><input name="id[]" value="58" type="checkbox"></td>
+                            <td>{$vo.feedback_id}</td>
+                            <td>{$vo.feedback_content}</td>
+                            <td>{$vo.feedback_lianxi}</td>
+                            <td>{$vo.feedback_time|date="Y-m-d",###}</td>
+                            <td>
+                                <a class="link-del" href="__CONTROLLER__/del/id/{$vo.feedback_id}" onclick="return confirm('确定要删除 {$vo.feedback_id} 吗?');">删除</a>
+                            </td>
+                        </tr></volist>
+                    </table>
+                    <div class="list-page"><?php echo "$total 条 1/1 页 "?></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

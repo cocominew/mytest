@@ -1,0 +1,86 @@
+<!doctype html>
+<html  lang="zh-CN" prefix="og: http://ogp.me/ns#">
+<head>
+<title>娱乐  -寻觅,发现生活之美</title>
+<include file="Common:head"/>  
+
+<div id="remen" style="margin-top: -50px">
+        <p>娱乐
+            <hr />
+        </p>
+    </div>
+    <input type="hidden" class="g" value="{$games.g_id}"/>
+<div class="main" style="width: 600px;height: 1500px;margin: 50px auto;max-width: 100%">
+    <if condition="$games['zan'] == 1">
+        <a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;color: red">点赞</a>
+    <else/><a class="glyphicon glyphicon-thumbs-up zan" style="font-size:15px;text-decoration: none;cursor: pointer;">点赞</a>
+    </if>
+    <if condition="$games['collection'] ==1">
+            <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;color:rgb(250, 247, 81)">收藏</a>
+        <else/>
+        <a class="glyphicon glyphicon-star-empty collection" style="font-size:15px;margin-top: 45px;text-decoration: none;cursor: pointer;margin-left: 25px;">收藏</a>
+    </if>
+		<?php echo htmlspecialchars_decode($games['g_content']);?>
+		
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(".zan").click(function () {
+        var id = $(".g").val();
+        console.log(id);
+      
+        $.ajax({
+            url: '{:U("pros")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('点赞成功~'); 
+                     location.reload();
+                } else {
+                    alert("你已经点过赞了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能点赞");
+                console.log(e);
+            }
+        })
+    })
+   
+    $(".collection").click(function () {
+        var id = $(".g").val();
+        console.log(id);
+      
+        $.ajax({
+            url: '{:U("collection")}',
+            cache: false,
+            async: false,
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            type: "post",
+            success: function (datas) {
+                console.log(datas);
+                if (datas.status == 'success') {                     
+                     alert('收藏成功~'); 
+                     location.reload();
+                } else {
+                    alert("你已经收藏过了，不能再点"); 
+                }
+            },
+            error: function (e) {
+                alert("登录才能收藏");
+                console.log(e);
+            }
+        })
+    })
+</script>

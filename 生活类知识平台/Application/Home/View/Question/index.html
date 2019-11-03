@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta content="text/html" http-equiv="Content-Type" charset="UTF-8" />
+<title>问题中心 -寻觅,发现生活之美</title>
+
+<include file="Common:head" />
+<style type="text/css">
+.a{
+    border: 1px solid  rgba(88, 87, 87, 0.4);
+    background-color: rgb(247,248,250);
+}
+</style>
+<script type="text/javascript">
+function ans(obj){
+        //obj.parentElement.style.backgroundColor="rgb(247,248,250)";
+        obj.parentElement.classList.add("a");
+        obj.nextElementSibling.style.display="block";
+        obj.nextElementSibling.nextElementSibling.style.display="block";
+        //obj.children[2].style.display="block";   
+    };
+
+$(document).ready(function(){
+    $('.shouqi').click(function(){
+        $('.txt').hide();
+        $('.shouqi').hide();
+        $('.k').removeClass("a");
+    })
+})
+</script>
+<body>  
+        <div class="container">
+            <div class="tiwen">
+            <i class="glyphicon glyphicon-question-sign" style="color: rgb(88, 214, 71);font-size: 30px;"></i><span style="color: rgb(124, 122, 122);font-size: 30px;margin-left: 15px;">提问</span>
+            </div>
+            <div class="que">
+            <form action="" method="post">
+               <textarea type="text" name="que" class="que1" placeholder="一句话完整描述你的问题"></textarea><br/><br/>
+               <input type="submit" class="btn btn-success pull-right "/> 
+            </form>
+            </div>
+                    
+            <div class="navbar navbar-default navbar-static-top navbar-xm" style="background-color: transparent;">
+                              <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tab" aria-expanded="false">
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">问题中心</a>
+                              </div>
+
+                              <div class="collapse navbar-collapse" id="xm-nav">
+                                <ul class="nav navbar-nav">
+                                  <li class="active">
+                                      <a href="#all" aria-controls="all" role="tab" data-toggle="tab">全部问题</a></li>
+                                  <li>
+                                      <a href="#myque" aria-controls="myque" role="tab" data-toggle="tab">我的问题</a></li>
+                                  <li>
+                                      <a href="#myans" aria-controls="myans" role="tab" data-toggle="tab">我的回答</a></li>
+                                  
+                                </div></div>
+            <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="all" style="margin-top: 41px;padding-bottom: 56px;">
+                             <volist name="all" id="vo">
+                             <div class="k" style="margin-top: 41px;width:684px;border-bottom: 1px solid rgba(88, 87, 87, 0.4);border-top: 1px solid rgba(88, 87, 87, 0.4);">
+                             <div style="font-size: 20px;">{$vo.q_que}</div>
+                           <if condition="$vo['user_id']!=$_SESSION['user_id']">
+                                    <div  style="color: rgb(92, 212, 92);margin-top: 32px;font-size: 17px;margin-left: 563px;cursor: pointer;" class="ans" onclick="ans(this)" >
+                                        <i class="glyphicon glyphicon-pencil" style="margin-right: 6px;"></i>回答
+                                        
+                                    </div>
+                       <else/>   
+                                <div  style="color: rgb(175, 179, 175);margin-top: 32px;font-size: 17px;margin-left: 563px;" class="ans">
+                                   <i class="glyphicon glyphicon-pencil" style="margin-right: 6px;"></i>回答
+                                   
+                                </div>
+                              </if>
+                              <div style="margin-top: -90px;display: none;margin-left:-689px;" class="txt">
+                                <form action="" method="post">
+                            <textarea type="text" cols="80" rows="10" name="ans" style="margin-top: 136px;margin-left: 726px;" placeholder="请在此输入您的回答"></textarea><br/>
+                            <input type="submit" class="btn btn-success btn-sm" style="margin-left: 1263px;" value="回复"/> 
+                        </form>
+                        </div>
+                        <div class="shouqi" style="display: none;cursor: pointer;margin-left: 37px;height: 45px;color: #9d9c9c;font-size: 14px;" ><span>收起</span><i class="glyphicon glyphicon-menu-up" style="color: rgb(211, 209, 209);margin-left: 5px;"></i></div>
+                                </div>
+                            </volist>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="myque" style="margin-top: 41px;padding-bottom: 56px;">
+                              <volist name="myque" id="vo">
+                                <div class="k" style="margin-top: 41px;width:684px;border-bottom: 1px solid rgba(88, 87, 87, 0.4);border-top: 1px solid rgba(88, 87, 87, 0.4);">
+                                    <div style="font-size: 20px;">{$vo.q_que}</div>
+                                    <div style="margin-top: 19px;">{$vo.q_time|date="Y-m-d",###}</div>
+                                </div>
+                            </volist> 
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="myans" style="margin-top: 41px;padding-bottom: 56px;">
+                                <volist name="myans" id="vo">
+                                <div class="k" style="margin-top: 41px;width:684px;border-bottom: 1px solid rgba(88, 87, 87, 0.4);border-top: 1px solid rgba(88, 87, 87, 0.4);">
+                                    
+                                    <div style="font-size: 18px;color: rgb(156, 153, 153);margin-top: 19px;">我的回答：{$vo.q_ans}</div>
+                                    <div style="margin-top: 19px;">{$vo.q_time|date="Y-m-d",###}</div>
+                                </div>
+                            </volist> 
+                            </div>
+                    </div>
+            </div>
+</body>
+</head>
+</html>

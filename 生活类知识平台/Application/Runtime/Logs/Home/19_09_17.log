@@ -1,0 +1,306 @@
+[ 2019-09-17T15:13:26+08:00 ] ::1 /xunmi/index.php/Home/Login/__Controller__/Home/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007602s ]
+ERR: 非法操作:__Controller__
+
+[ 2019-09-17T15:14:06+08:00 ] ::1 /xunmi/index.php/Home/Home/Cook/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003654s ]
+ERR: 无法加载控制器:Home
+
+[ 2019-09-17T15:14:44+08:00 ] ::1 /xunmi/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000777s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.560533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.561044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.055459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.057846s ]
+
+[ 2019-09-17T15:14:50+08:00 ] ::1 /xunmi/index.php/Home/Login/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004170s ]
+ERR: 非法操作:Festival
+
+[ 2019-09-17T15:15:22+08:00 ] ::1 /xunmi/index.php/Home/Login/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000456s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006767s ]
+ERR: 非法操作:Festival
+
+[ 2019-09-17T15:15:23+08:00 ] ::1 /xunmi/index.php/Home/Login/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002988s ]
+ERR: 非法操作:Festival
+
+[ 2019-09-17T15:15:31+08:00 ] ::1 /xunmi/index.php/Home/Login/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003941s ]
+ERR: 非法操作:Festival
+
+[ 2019-09-17T15:15:57+08:00 ] ::1 /xunmi/index.php/Home/Cook/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002931s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.1006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_food` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_food` LIMIT 0,8   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\fca994ea07cfbe42aa2eb3b5c25bc626.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.268241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.268675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2019-09-17T15:16:07+08:00 ] ::1 /xunmi/index.php/Home/Trivial/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003260s ]
+SQL: SHOW COLUMNS FROM `xm_trivial` [ RunTime:0.1241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_trivial` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_trivial` LIMIT 0,8   [ RunTime:0.0208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\8e0cdc619aadcb5185b9089c5deb04f6.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.264763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.265358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019183s ]
+
+[ 2019-09-17T15:16:31+08:00 ] ::1 /xunmi/index.php/Home/Login/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004003s ]
+ERR: 非法操作:Festival
+
+[ 2019-09-17T15:16:48+08:00 ] ::1 /xunmi/index.php/Home/Cook/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0972s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_food` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_food` LIMIT 0,8   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000632s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001309s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\fca994ea07cfbe42aa2eb3b5c25bc626.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011791s ]
+
+[ 2019-09-17T15:16:57+08:00 ] ::1 /xunmi/index.php/Home/Login/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+ERR: 非法操作:Festival
+
+[ 2019-09-17T15:17:24+08:00 ] ::1 /xunmi/index.php/Home/Cook/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005565s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_food` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xm_food` LIMIT 0,8   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\fca994ea07cfbe42aa2eb3b5c25bc626.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013727s ]
+
+[ 2019-09-17T15:17:31+08:00 ] ::1 /xunmi/index.php/Home/Login/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+ERR: 非法操作:Festival
+
+[ 2019-09-17T15:17:54+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.220098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010942s ]
+
+[ 2019-09-17T15:18:01+08:00 ] ::1 /xunmi/index.php/Home/Festival/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002879s ]
+SQL: SHOW COLUMNS FROM `xm_festival` [ RunTime:0.0502s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_festival` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xm_festival` LIMIT 0,8   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\f8bdb1f350c32e86a672ffc8b180460d.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.297705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.298175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015186s ]
+
+[ 2019-09-17T15:18:10+08:00 ] ::1 /xunmi/index.php/Home/Cook/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003524s ]
+SQL: SHOW COLUMNS FROM `xm_food` [ RunTime:0.0506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_food` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xm_food` LIMIT 0,8   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\wamp\www\xunmi\Application\Runtime\Cache\Home\fca994ea07cfbe42aa2eb3b5c25bc626.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007485s ]
+
+[ 2019-09-17T15:18:38+08:00 ] ::1 /xunmi/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003410s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000814s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.231977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010266s ]
+
+[ 2019-09-17T15:21:49+08:00 ] ::1 /xunmi/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000481s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.325604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007853s ]
+
