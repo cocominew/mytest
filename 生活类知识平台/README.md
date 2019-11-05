@@ -1,37 +1,52 @@
-﻿## 简介
+﻿## 生活类知识平台
 
-ThinkPHP 是一个免费开源的，快速、简单的面向对象的 轻量级PHP开发框架 ，创立于2006年初，遵循Apache2开源协议发布，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。ThinkPHP从诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简的代码的同时，也注重易用性。并且拥有众多的原创功能和特性，在社区团队的积极参与下，在易用性、扩展性和性能方面不断优化和改进，已经成长为国内最领先和最具影响力的WEB应用开发框架，众多的典型案例确保可以稳定用于商业以及门户级的开发。
+运用了thinkphp框架。网站命名为寻觅，标语是发现生活之美。是一个生活类知识平台网站，致力于帮助用户解决生活中的小烦恼，为用户带来便利的同时也增添了更多的生活乐趣。包含了热门推荐类、节日习俗类、家常菜谱类、旅游出行类、生活百科类、诗词类和娱乐类这七个类目。
 
-## 全面的WEB开发特性支持
+## 寻觅首页
 
-最新的ThinkPHP为WEB应用开发提供了强有力的支持，这些支持包括：
+![寻觅首页](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%AF%BB%E8%A7%85%E9%A6%96%E9%A1%B5.JPEG)
 
-*  MVC支持-基于多层模型（M）、视图（V）、控制器（C）的设计模式
-*  ORM支持-提供了全功能和高性能的ORM支持，支持大部分数据库
-*  模板引擎支持-内置了高性能的基于标签库和XML标签的编译型模板引擎
-*  RESTFul支持-通过REST控制器扩展提供了RESTFul支持，为你打造全新的URL设计和访问体验
-*  云平台支持-提供了对新浪SAE平台和百度BAE平台的强力支持，具备“横跨性”和“平滑性”，支持本地化开发和调试以及部署切换，让你轻松过渡，打造全新的开发体验。
-*  CLI支持-支持基于命令行的应用开发
-*  RPC支持-提供包括PHPRpc、HProse、jsonRPC和Yar在内远程调用解决方案
-*  MongoDb支持-提供NoSQL的支持
-*  缓存支持-提供了包括文件、数据库、Memcache、Xcache、Redis等多种类型的缓存支持
+## 后台管理
 
-## 大道至简的开发理念
+![后台管理](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86.jpg)
 
-ThinkPHP从诞生以来一直秉承大道至简的开发理念，无论从底层实现还是应用开发，我们都倡导用最少的代码完成相同的功能，正是由于对简单的执着和代码的修炼，让我们长期保持出色的性能和极速的开发体验。在主流PHP开发框架的评测数据中表现卓越，简单和快速开发是我们不变的宗旨。
+## 节日习俗类
 
-## 安全性
+![节日习俗](https://github.com/cocominew/mytest/blob/master/img-storage/%E8%8A%82%E6%97%A5%E4%B9%A0%E4%BF%97%E7%B1%BB.JPEG)
 
-框架在系统层面提供了众多的安全特性，确保你的网站和产品安全无忧。这些特性包括：
+## 家常菜谱类
 
-*  XSS安全防护
-*  表单自动验证
-*  强制数据类型转换
-*  输入数据过滤
-*  表单令牌验证
-*  防SQL注入
-*  图像上传检测
+![家常菜谱类](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%AE%B6%E5%B8%B8%E8%8F%9C%E8%B0%B1%E7%B1%BB.JPEG)
 
-## 商业友好的开源协议
+## 旅游出行类
 
-ThinkPHP遵循Apache2开源协议发布。Apache Licence是著名的非盈利开源组织Apache采用的协议。该协议和BSD类似，鼓励代码共享和尊重原作者的著作权，同样允许代码修改，再作为开源或商业软件发布。
+![旅游出行类](https://github.com/cocominew/mytest/blob/master/img-storage/%E6%97%85%E6%B8%B8%E5%87%BA%E8%A1%8C%E7%B1%BB.JPEG)
+
+## 生活百科类
+
+![生活百科类](https://github.com/cocominew/mytest/blob/master/img-storage/%E7%94%9F%E6%B4%BB%E7%99%BE%E7%A7%91%E7%B1%BB.JPEG)
+
+## 诗词类
+
+![诗词类](https://github.com/cocominew/mytest/blob/master/img-storage/%E8%AF%97%E8%AF%8D%E7%B1%BB.JPEG)
+
+## 娱乐类
+
+![娱乐类](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%A8%B1%E4%B9%90%E7%B1%BB.jpg)
+
+## 问题中心
+
+![问题中心](https://github.com/cocominew/mytest/blob/master/img-storage/%E9%97%AE%E9%A2%98%E4%B8%AD%E5%BF%83.JPEG)
+
+## 意见反馈
+
+![意见反馈](https://github.com/cocominew/mytest/blob/master/img-storage/%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88.jpg)
+
+## 新增作品
+
+![新增作品](https://github.com/cocominew/mytest/blob/master/img-storage/%E6%96%B0%E5%A2%9E%E4%BD%9C%E5%93%81.JPEG)
+
+## 删除作品
+
+![删除作品](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%88%A0%E9%99%A4%E4%BD%9C%E5%93%81.jpg)
+
