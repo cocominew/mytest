@@ -24,7 +24,7 @@
 
 ## 发表评论页面截图
 
-![发表评论页面](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%AD%A6%E7%94%9F%E5%85%A5%E5%8F%A3.jpg)
+![发表评论页面](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%8F%91%E8%A1%A8%E8%AF%84%E8%AE%BA.PNG)
 
 
 
