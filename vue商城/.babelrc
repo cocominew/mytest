@@ -1,0 +1,12 @@
+//babel配置文件，字符串必须用双引号
+//cnpm i -D @babel/core
+// cnpm install --save-dev @babel/plugin-transform-runtime
+//cnpm install --save @babel/runtime
+// cnpm i @babel/preset-env
+//cnpm i babel-preset-mobx
+{
+    "presets": ["@babel/preset-env","mobx"],//语法
+    "plugins": ["@babel/plugin-transform-runtime","@babel/plugin-transform-modules-commonjs",
+        "transform-remove-strict-mode"
+        ]
+}
