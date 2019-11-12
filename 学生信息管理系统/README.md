@@ -14,11 +14,6 @@
 
 ![学生入口](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%AD%A6%E7%94%9F%E5%85%A5%E5%8F%A3.jpg)
 
-
-#学生登录界面截图
-
-![学生入口](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%AD%A6%E7%94%9F%E5%85%A5%E5%8F%A3.jpg)
-
 ## 教师管理页面截图
 
 ![教师页面](https://github.com/cocominew/mytest/blob/master/img-storage/%E6%95%99%E5%B8%88%E9%A1%B5%E9%9D%A2.jpg)
