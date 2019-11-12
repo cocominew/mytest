@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-﻿## 生活类知识平台
-=======
+
 ## 生活类知识平台
->>>>>>> 86ae6fc1a4938a24d318fd1001c2806e78c72b23
+
 
 运用了thinkphp框架。网站命名为寻觅，标语是发现生活之美。是一个生活类知识平台网站，致力于帮助用户解决生活中的小烦恼，为用户带来便利的同时也增添了更多的生活乐趣。包含了热门推荐类、节日习俗类、家常菜谱类、旅游出行类、生活百科类、诗词类和娱乐类这七个类目。
 
@@ -37,6 +35,16 @@
 ## 娱乐类
 
 ![娱乐类](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%A8%B1%E4%B9%90%E7%B1%BB.jpg)
+
+## 部分详情页
+
+![旅游出行详情页](https://github.com/cocominew/mytest/blob/master/img-storage/%E6%97%85%E6%B8%B8%E5%87%BA%E8%A1%8C%E8%AF%A6%E6%83%85%E9%A1%B5.JPEG)
+
+![家常菜谱详情页](https://github.com/cocominew/mytest/blob/master/img-storage/%E5%AE%B6%E5%B8%B8%E8%8F%9C%E8%B0%B1%E8%AF%A6%E6%83%85%E9%A1%B5.JPEG)
+
+![节日习俗详情页](https://github.com/cocominew/mytest/blob/master/img-storage/%E8%8A%82%E6%97%A5%E4%B9%A0%E4%BF%97%E8%AF%A6%E6%83%85%E9%A1%B5.JPEG)
+
+![诗词详情页](https://github.com/cocominew/mytest/blob/master/img-storage/%E8%AF%97%E8%AF%8D%E8%AF%A6%E6%83%85%E9%A1%B5.JPEG)
 
 ## 问题中心
 
